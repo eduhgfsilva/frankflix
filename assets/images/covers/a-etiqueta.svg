@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".42" r=".7">
+      <stop offset="0" stop-color="#2a1f0a"/>
+      <stop offset=".6" stop-color="#0e0b06"/>
+      <stop offset="1" stop-color="#040303"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbe39a"/>
+      <stop offset=".5" stop-color="#d9a740"/>
+      <stop offset="1" stop-color="#8f6420"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9b0" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#ffe9b0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#ffd36b" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#ffd36b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#121216"/>
+      <stop offset=".5" stop-color="#2a2a31"/>
+      <stop offset="1" stop-color="#101013"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <path d="M240 0 H360 L520 760 H80 Z" fill="url(#beam)"/>
+  <circle cx="300" cy="380" r="230" fill="url(#halo)"/>
+  <!-- brilhos -->
+  <g fill="#fff1c4">
+    <path d="M120 200 l6 18 l18 6 l-18 6 l-6 18 l-6 -18 l-18 -6 l18 -6 Z" opacity=".8"/>
+    <path d="M470 160 l4 12 l12 4 l-12 4 l-4 12 l-4 -12 l-12 -4 l12 -4 Z" opacity=".7"/>
+    <path d="M500 520 l5 15 l15 5 l-15 5 l-5 15 l-5 -15 l-15 -5 l15 -5 Z" opacity=".6"/>
+    <path d="M90 520 l4 12 l12 4 l-12 4 l-4 12 l-4 -12 l-12 -4 l12 -4 Z" opacity=".5"/>
+  </g>
+  <!-- cordão -->
+  <path d="M300 0 C300 80 330 130 318 196" fill="none" stroke="#d8c7a0" stroke-width="4"/>
+  <!-- etiqueta -->
+  <g transform="rotate(-12 300 380)">
+    <path d="M300 180 L390 250 V560 C390 572 382 580 370 580 H230 C218 580 210 572 210 560 V250 Z" fill="url(#gold)" stroke="#6b4a14" stroke-width="3"/>
+    <circle cx="300" cy="236" r="16" fill="#0e0b06" stroke="#6b4a14" stroke-width="3"/>
+    <!-- coroa -->
+    <path d="M246 360 L258 300 L282 336 L300 290 L318 336 L342 300 L354 360 Z" fill="#3a2a08"/>
+    <rect x="246" y="368" width="108" height="12" rx="3" fill="#3a2a08"/>
+    <!-- código de barras -->
+    <g fill="#3a2a08">
+      <rect x="236" y="430" width="6" height="90"/><rect x="248" y="430" width="3" height="90"/><rect x="256" y="430" width="8" height="90"/>
+      <rect x="270" y="430" width="3" height="90"/><rect x="278" y="430" width="5" height="90"/><rect x="290" y="430" width="9" height="90"/>
+      <rect x="304" y="430" width="3" height="90"/><rect x="312" y="430" width="6" height="90"/><rect x="324" y="430" width="3" height="90"/>
+      <rect x="332" y="430" width="8" height="90"/><rect x="346" y="430" width="4" height="90"/><rect x="356" y="430" width="6" height="90"/>
+    </g>
+  </g>
+  <!-- pedestal -->
+  <ellipse cx="300" cy="690" rx="190" ry="34" fill="#34343c"/>
+  <path d="M110 690 V860 C110 880 490 880 490 860 V690 C490 712 110 712 110 690 Z" fill="url(#stone)"/>
+  <ellipse cx="300" cy="690" rx="190" ry="34" fill="none" stroke="#d9a740" stroke-opacity=".5" stroke-width="2"/>
+</svg>

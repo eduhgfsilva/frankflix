@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".7" r=".75">
+      <stop offset="0" stop-color="#5a1a0c"/>
+      <stop offset=".45" stop-color="#1c0907"/>
+      <stop offset="1" stop-color="#050404"/>
+    </radialGradient>
+    <linearGradient id="flameOuter" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#e3212d"/>
+      <stop offset=".6" stop-color="#a3111a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#5a0a10" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="flameMid" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffb02e"/>
+      <stop offset="1" stop-color="#ff5a1f" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="flameCore" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff7c2"/>
+      <stop offset="1" stop-color="#ffd25a" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1e2bf"/>
+      <stop offset="1" stop-color="#b8976a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ff9a3c" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff9a3c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <!-- raios de luz do esclarecimento -->
+  <g stroke="#ffe7a8" stroke-width="2" opacity=".18">
+    <path d="M300 600 L40 120 M300 600 L140 60 M300 600 L300 20 M300 600 L460 60 M300 600 L560 120 M300 600 L20 320 M300 600 L580 320"/>
+  </g>
+  <circle cx="300" cy="560" r="260" fill="url(#glow)"/>
+  <!-- fumaça -->
+  <ellipse cx="270" cy="170" rx="150" ry="60" fill="#9a8f86" opacity=".07"/>
+  <ellipse cx="350" cy="110" rx="120" ry="40" fill="#9a8f86" opacity=".05"/>
+  <!-- chamas -->
+  <path fill="url(#flameOuter)" d="M300 640 C180 600 160 480 220 400 C220 450 240 470 262 470 C230 380 260 290 330 220 C320 300 360 340 380 400 C400 370 398 340 392 310 C470 400 450 590 300 640 Z"/>
+  <path fill="url(#flameMid)" d="M300 640 C215 610 205 520 245 460 C248 495 262 510 278 512 C262 450 285 390 330 340 C326 400 352 430 362 470 C376 450 378 430 374 410 C420 480 400 610 300 640 Z"/>
+  <path fill="url(#flameCore)" d="M300 640 C250 620 244 560 270 520 C274 545 286 556 296 556 C290 520 300 485 324 455 C324 495 340 512 348 540 C366 580 350 630 300 640 Z"/>
+  <!-- brasas -->
+  <g fill="#ffb347">
+    <circle cx="200" cy="360" r="3" opacity=".8"/><circle cx="410" cy="300" r="2.5" opacity=".7"/><circle cx="360" cy="200" r="2" opacity=".6"/>
+    <circle cx="240" cy="260" r="2" opacity=".5"/><circle cx="450" cy="420" r="3" opacity=".7"/><circle cx="160" cy="470" r="2" opacity=".6"/>
+    <circle cx="300" cy="150" r="1.6" opacity=".5"/><circle cx="430" cy="180" r="1.8" opacity=".4"/>
+  </g>
+  <!-- livro aberto -->
+  <path fill="#3a1d0e" d="M60 640 L300 676 L540 640 L540 744 L300 790 L60 744 Z"/>
+  <path fill="url(#page)" d="M300 680 C230 640 150 636 80 652 L80 740 C150 724 230 728 300 770 Z"/>
+  <path fill="url(#page)" d="M300 680 C370 640 450 636 520 652 L520 740 C450 724 370 728 300 770 Z"/>
+  <g stroke="#8a6c45" stroke-width="2" fill="none" opacity=".6">
+    <path d="M110 672 C170 662 230 666 280 690 M110 690 C170 680 230 684 280 708 M110 708 C170 698 230 702 280 726"/>
+    <path d="M490 672 C430 662 370 666 320 690 M490 690 C430 680 370 684 320 708 M490 708 C430 698 370 702 320 726"/>
+  </g>
+  <path d="M300 680 V770" stroke="#5a3a20" stroke-width="3"/>
+  <!-- borda queimando -->
+  <path fill="#1a0a06" d="M80 652 C100 646 112 656 126 648 C140 640 150 652 164 644 L164 650 C150 658 140 648 126 656 C112 664 100 652 80 660 Z" opacity=".8"/>
+</svg>

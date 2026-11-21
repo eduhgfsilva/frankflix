@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080a12"/>
+      <stop offset="1" stop-color="#030305"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c5aa8"/>
+      <stop offset="1" stop-color="#0e1f45"/>
+    </linearGradient>
+    <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d8ee8" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#5d8ee8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#4f7fd8" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#4f7fd8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <!-- relógio -->
+  <g transform="translate(92 92)">
+    <circle r="40" fill="#0d1019" stroke="#2a3350" stroke-width="4"/>
+    <g stroke="#4a5577" stroke-width="3"><path d="M0 -32 V-26 M32 0 H26 M0 32 V26 M-32 0 H-26"/></g>
+    <path d="M0 0 L-4 -22" stroke="#c9d3ef" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0 0 L-27 -9" stroke="#c9d3ef" stroke-width="3" stroke-linecap="round"/>
+    <circle r="4" fill="#e3212d"/>
+  </g>
+  <!-- tela -->
+  <ellipse cx="300" cy="280" rx="300" ry="220" fill="url(#halo)"/>
+  <path d="M110 420 H490 L640 900 H-40 Z" fill="url(#cone)"/>
+  <rect x="100" y="150" width="400" height="250" rx="10" fill="#05070c"/>
+  <rect x="110" y="160" width="380" height="230" rx="4" fill="url(#screen)"/>
+  <g transform="translate(300 262)">
+    <circle r="56" fill="none" stroke="#ffffff" stroke-opacity=".2" stroke-width="8"/>
+    <circle r="56" fill="none" stroke="#e3212d" stroke-width="8" stroke-dasharray="211 352" transform="rotate(-90)" stroke-linecap="round"/>
+    <path d="M-14 -24 L26 0 L-14 24 Z" fill="#fff"/>
+  </g>
+  <rect x="160" y="350" width="280" height="6" rx="3" fill="#ffffff" fill-opacity=".2"/>
+  <rect x="160" y="350" width="250" height="6" rx="3" fill="#e3212d"/>
+  <rect x="280" y="400" width="40" height="30" fill="#05070c"/>
+  <!-- pessoa -->
+  <circle cx="300" cy="600" r="44" fill="#06070b"/>
+  <path d="M220 700 C226 652 260 636 300 636 C340 636 374 652 380 700 Z" fill="#06070b"/>
+  <path d="M256 590 C262 560 282 556 300 556 C318 556 338 560 344 590" fill="none" stroke="#3f68b8" stroke-width="3" opacity=".7"/>
+  <!-- sofá -->
+  <path fill="#0b0d15" d="M70 690 C70 668 90 660 110 660 H490 C510 660 530 668 530 690 V760 H560 C574 760 580 770 580 784 V860 H20 V784 C20 770 26 760 40 760 H70 Z"/>
+  <path fill="none" stroke="#2f4f8f" stroke-width="3" opacity=".8" d="M70 690 C70 668 90 660 110 660 H490 C510 660 530 668 530 690"/>
+  <rect x="40" y="860" width="24" height="30" fill="#07080d"/>
+  <rect x="536" y="860" width="24" height="30" fill="#07080d"/>
+</svg>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FRANKFLIX — A Plataforma de Streaming da Indústria Cultural</title>
+  <meta name="description" content="Plataforma fictícia de streaming criada para uma conferência de Filosofia (2º ano do Ensino Médio) sobre a Escola de Frankfurt e a crítica à Indústria Cultural.">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="data/catalog.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" data-header>
+    <div class="site-header__inner">
+      <a class="brand" href="#inicio" aria-label="FRANKFLIX — voltar ao início">
+        <img src="assets/logo.svg" alt="" width="152" height="25">
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio" data-nav="inicio">Início</a></li>
+          <li><a href="#originais" data-nav="originais">Originais FRANKFLIX</a></li>
+          <li><a href="#mais-assistidos" data-nav="mais-assistidos">Mais Assistidos</a></li>
+          <li><a href="#cancele" data-nav="cancele">Cancele sua assinatura</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="btn btn--ghost btn--sm" data-presentation-open disabled>
+          <span class="btn__icon" data-icon="screen"></span><span>Modo Apresentação</span>
+        </button>
+        <a class="btn btn--ghost btn--sm" href="print.html">
+          <span class="btn__icon" data-icon="print"></span><span>Versão impressa</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <section id="inicio" class="hero" data-spy="inicio" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true"></div>
+      <div class="hero__content" data-hero>
+        <p class="hero__kicker" data-hero-kicker></p>
+        <h1 id="hero-title" class="hero__title">
+          <img src="assets/logo.svg" alt="FRANKFLIX" width="610" height="100">
+          <span class="hero__tagline" data-hero-tagline></span>
+        </h1>
+        <p class="hero__slogan" data-hero-slogan></p>
+        <div class="hero__description" data-hero-description></div>
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="#originais" data-scroll-to="originais">
+            <span class="btn__icon" data-icon="play"></span><span>Explorar catálogo</span>
+          </a>
+          <a class="btn btn--secondary btn--lg" href="#sobre" data-scroll-to="sobre">
+            <span class="btn__icon" data-icon="info"></span><span>Sobre a FRANKFLIX</span>
+          </a>
+        </div>
+        <p class="hero__meta" data-hero-meta></p>
+      </div>
+    </section>
+
+    <div class="app-status" data-status role="status" aria-live="polite">
+      <noscript>
+        <p class="alert alert--error">Este site precisa de JavaScript para montar o catálogo. Ative o JavaScript ou consulte a <a href="print.html">versão impressa</a>.</p>
+      </noscript>
+    </div>
+
+    <section id="sobre" class="section about" data-spy="inicio" aria-labelledby="sobre-title">
+      <div class="container">
+        <h2 id="sobre-title" class="section__title">Sobre a FRANKFLIX</h2>
+        <div class="about__grid" data-about></div>
+      </div>
+    </section>
+
+    <section id="originais" class="section collection" data-spy="originais" aria-labelledby="originais-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__kicker">Só na FRANKFLIX</p>
+          <h2 id="originais-title" class="section__title">Originais FRANKFLIX</h2>
+          <p class="section__lead">Três produções que contam a história da Escola de Frankfurt. Selecione uma capa para ver sinopse, contexto e conceitos.</p>
+        </header>
+      </div>
+      <div class="row" data-row="originals" aria-label="Originais FRANKFLIX"></div>
+    </section>
+
+    <section id="mais-assistidos" class="section collection collection--top" data-spy="mais-assistidos" aria-labelledby="top-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__kicker">Indústria Cultural · a parte principal</p>
+          <h2 id="top-title" class="section__title">Mais Assistidos</h2>
+          <p class="section__lead">Os quatro títulos que todo mundo está vendo. Cada um é um conceito da Indústria Cultural com um exemplo atual — e todos escondem alguma coisa.</p>
+        </header>
+      </div>
+      <div class="row row--top" data-row="top" aria-label="Mais Assistidos"></div>
+    </section>
+
+    <section id="cancele" class="section verdict" data-spy="cancele" aria-labelledby="cancele-title">
+      <div class="container container--narrow" data-verdict>
+        <h2 id="cancele-title" class="verdict__title">Por que você deveria cancelar a FRANKFLIX?</h2>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <img src="assets/logo.svg" alt="FRANKFLIX" width="122" height="20">
+      <p data-footer-disclaimer></p>
+      <p>Conteúdo do catálogo em <code>data/catalog.json</code> · Capas e ilustrações originais em SVG · <a href="print.html">Versão para impressão</a></p>
+    </div>
+  </footer>
+
+  <dialog class="modal" data-modal aria-labelledby="modal-title">
+    <div class="modal__frame">
+      <button type="button" class="modal__close icon-btn" data-modal-close aria-label="Fechar detalhes" autofocus>
+        <span data-icon="close"></span>
+      </button>
+      <div class="modal__body" data-modal-body></div>
+    </div>
+  </dialog>
+
+  <dialog class="presentation" data-presentation aria-label="Modo apresentação">
+    <div class="presentation__stage" data-stage></div>
+    <div class="presentation__controls">
+      <button type="button" class="btn btn--secondary" data-prev><span class="btn__icon" data-icon="left"></span><span>Anterior</span></button>
+      <div class="presentation__progress">
+        <span class="presentation__counter" data-counter></span>
+        <span class="presentation__bar"><span data-bar></span></span>
+      </div>
+      <button type="button" class="btn btn--primary" data-next><span>Próximo</span><span class="btn__icon" data-icon="right"></span></button>
+      <button type="button" class="btn btn--ghost" data-fullscreen><span class="btn__icon" data-icon="expand"></span><span data-fullscreen-label>Tela cheia</span></button>
+      <button type="button" class="btn btn--ghost" data-presentation-close><span class="btn__icon" data-icon="close"></span><span>Sair</span></button>
+    </div>
+    <p class="presentation__hint" data-fs-hint></p>
+    <p class="visually-hidden" data-live aria-live="polite"></p>
+  </dialog>
+
+  <script>
+    // Aviso para quem abre o arquivo diretamente (file://): módulos e fetch() não funcionam assim.
+    if (location.protocol === 'file:') {
+      document.addEventListener('DOMContentLoaded', function () {
+        var box = document.querySelector('[data-status]');
+        if (box) box.innerHTML = '<p class="alert alert--error"><strong>Abra o site por um servidor HTTP.</strong> Navegadores bloqueiam o carregamento do catálogo (fetch e módulos JavaScript) em arquivos abertos via file://. No terminal, dentro da pasta do projeto, execute <code>python3 -m http.server 8000</code> e acesse <code>http://localhost:8000</code>.</p>';
+      });
+    }
+  </script>
+</body>
+</html>

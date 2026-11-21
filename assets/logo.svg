@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 100" width="610" height="100" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">FRANKFLIX</title>
+  <defs>
+    <linearGradient id="logo-red" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3b45"/>
+      <stop offset="1" stop-color="#b3121b"/>
+    </linearGradient>
+    <clipPath id="logo-clip"><rect x="-10" y="0" width="640" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#logo-clip)" fill="none" stroke="url(#logo-red)" stroke-width="16" stroke-linejoin="miter" stroke-miterlimit="4">
+    <path d="M8 104V8H60M8 50H50"/>
+    <path transform="translate(70 0)" d="M8 104V8H38A22 22 0 0 1 38 52H8M36 52L68 104"/>
+    <path transform="translate(150 0)" d="M0 104L33 -10L66 104M15 68H51"/>
+    <path transform="translate(226 0)" d="M8 104V-4L56 104V-4"/>
+    <path transform="translate(300 0)" d="M8 0V100M62 0L18 56M30 44L66 104"/>
+    <path transform="translate(378 0)" d="M8 104V8H60M8 50H50"/>
+    <path transform="translate(448 0)" d="M8 0V92H58"/>
+    <path transform="translate(516 0)" d="M8 0V100"/>
+    <path transform="translate(542 0)" d="M2 -4L64 104M64 -4L2 104"/>
+  </g>
+</svg>

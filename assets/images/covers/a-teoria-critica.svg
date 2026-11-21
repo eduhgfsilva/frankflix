@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121219"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff6dc" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#fff6dc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8dfcc"/>
+      <stop offset="1" stop-color="#b9ae96"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <!-- foco de luz -->
+  <path d="M250 0 H350 L560 900 H40 Z" fill="url(#beam)"/>
+  <!-- sombras de persiana -->
+  <g fill="#000" opacity=".35" transform="rotate(-14 300 450)">
+    <rect x="-200" y="80" width="1000" height="26"/><rect x="-200" y="140" width="1000" height="26"/>
+    <rect x="-200" y="200" width="1000" height="26"/><rect x="-200" y="260" width="1000" height="26"/>
+    <rect x="-200" y="320" width="1000" height="26"/><rect x="-200" y="380" width="1000" height="26"/>
+  </g>
+  <!-- silhueta de espião -->
+  <g>
+    <path fill="#030304" d="M300 150 C268 150 250 160 246 196 L236 200 C220 204 214 212 222 216 C260 226 340 226 378 216 C386 212 380 204 364 200 L354 196 C350 160 332 150 300 150 Z"/>
+    <path fill="#030304" d="M262 220 C262 262 280 290 300 290 C320 290 338 262 338 220 Z"/>
+    <path fill="#030304" d="M300 282 L250 300 C206 314 186 340 178 400 L160 620 H440 L422 400 C414 340 394 314 350 300 Z"/>
+    <path fill="none" stroke="#e3212d" stroke-width="2.5" opacity=".75" d="M246 196 C250 160 268 150 300 150 C332 150 350 160 354 196 M178 400 C186 340 206 314 250 300 L300 282 L350 300 C394 314 414 340 422 400"/>
+    <path fill="#0d0d12" d="M300 290 L268 304 L300 400 L332 304 Z"/>
+  </g>
+  <!-- quadro de investigação -->
+  <g stroke="#e3212d" stroke-width="2" opacity=".8">
+    <path d="M70 120 L180 250 M530 110 L430 260 M70 120 L530 110"/>
+  </g>
+  <g fill="#e3212d"><circle cx="70" cy="120" r="7"/><circle cx="530" cy="110" r="7"/><circle cx="180" cy="250" r="5"/><circle cx="430" cy="260" r="5"/></g>
+  <!-- documentos -->
+  <g transform="rotate(-9 190 700)">
+    <rect x="70" y="580" width="230" height="290" fill="url(#paper)"/>
+    <rect x="92" y="604" width="80" height="96" fill="#5a5448"/>
+    <g fill="#6f6758"><rect x="186" y="610" width="96" height="6"/><rect x="186" y="628" width="80" height="6"/><rect x="186" y="646" width="90" height="6"/>
+      <rect x="92" y="720" width="186" height="5"/><rect x="92" y="736" width="170" height="5"/><rect x="92" y="752" width="186" height="5"/><rect x="92" y="768" width="140" height="5"/><rect x="92" y="784" width="176" height="5"/></g>
+  </g>
+  <g transform="rotate(7 420 720)">
+    <rect x="300" y="600" width="240" height="280" fill="#d6ccb5"/>
+    <g fill="#6f6758"><rect x="324" y="630" width="190" height="5"/><rect x="324" y="646" width="170" height="5"/><rect x="324" y="662" width="186" height="5"/>
+      <rect x="324" y="690" width="150" height="5"/><rect x="324" y="706" width="186" height="5"/><rect x="324" y="722" width="120" height="5"/></g>
+    <rect x="330" y="760" width="190" height="56" fill="none" stroke="#b3121b" stroke-width="5"/>
+    <text x="425" y="798" text-anchor="middle" font-family="Arial, Helvetica, 'Liberation Sans', sans-serif" font-weight="700" font-size="26" letter-spacing="3" fill="#b3121b">CONFIDENCIAL</text>
+  </g>
+  <!-- lupa -->
+  <g transform="rotate(-30 190 740)">
+    <circle cx="190" cy="740" r="62" fill="#fff" fill-opacity=".12" stroke="#c9a35a" stroke-width="12"/>
+    <rect x="182" y="804" width="16" height="96" rx="6" fill="#3b2a17"/>
+  </g>
+</svg>

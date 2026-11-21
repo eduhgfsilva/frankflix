@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FRANKFLIX — Trabalho de Filosofia (versão para impressão)</title>
+  <meta name="description" content="Versão para impressão em A4 do catálogo FRANKFLIX.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/print.css">
+  <script type="module" src="js/print.js"></script>
+</head>
+<body class="print-page">
+  <a class="skip-link" href="#documento">Pular para o documento</a>
+
+  <header class="toolbar" aria-labelledby="toolbar-title">
+    <div class="toolbar__inner">
+      <div class="toolbar__head">
+        <img src="assets/logo.svg" alt="FRANKFLIX" width="140" height="23">
+        <h1 id="toolbar-title">Versão para impressão</h1>
+        <a class="toolbar__link" href="index.html">← Voltar ao site</a>
+      </div>
+
+      <form class="toolbar__form" data-student-form aria-describedby="form-help">
+        <fieldset>
+          <legend>Identificação do trabalho</legend>
+          <p id="form-help" class="toolbar__help">Os dados aparecem na capa e ficam salvos apenas neste navegador. Campos vazios viram linhas para preencher à mão.</p>
+          <div class="toolbar__fields">
+            <label>Aluno(a)<input name="name" autocomplete="name"></label>
+            <label>Turma<input name="class"></label>
+            <label>Disciplina<input name="discipline"></label>
+            <label>Professor(a)<input name="teacher"></label>
+            <label>Escola<input name="school" autocomplete="organization"></label>
+            <label>Data<input name="date"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Opções</legend>
+          <label class="check"><input type="checkbox" name="covers" checked> Incluir capas coloridas (desmarque para economizar tinta)</label>
+          <label class="check"><input type="checkbox" name="notice" checked> Exibir aviso de “texto-base” no parecer final (desmarque só depois de revisá-lo)</label>
+          <label class="check"><input type="checkbox" name="examples" checked> Incluir quadros para o exemplo real escolhido pelo(a) estudante</label>
+        </fieldset>
+        <div class="toolbar__actions">
+          <button type="button" class="btn-print" data-print>Imprimir trabalho</button>
+          <p class="toolbar__help">Para gerar PDF: na janela de impressão, escolha o destino <strong>Salvar como PDF</strong>, papel <strong>A4</strong> e margens <strong>Padrão</strong>. A numeração de páginas aparece no Chrome e no Edge.</p>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <main id="documento" class="doc" tabindex="-1">
+    <p class="doc__status" data-status role="status">Carregando o conteúdo do catálogo…</p>
+  </main>
+
+  <script>
+    if (location.protocol === 'file:') {
+      document.addEventListener('DOMContentLoaded', function () {
+        var box = document.querySelector('[data-status]');
+        if (box) box.innerHTML = '<strong>Abra esta página por um servidor HTTP.</strong> O conteúdo é lido de data/catalog.json, o que o navegador bloqueia em arquivos abertos via file://. Execute <code>python3 -m http.server 8000</code> na pasta do projeto e acesse <code>http://localhost:8000/print.html</code>.';
+      });
+    }
+  </script>
+</body>
+</html>

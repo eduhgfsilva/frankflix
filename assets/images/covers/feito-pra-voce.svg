@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1024"/>
+      <stop offset="1" stop-color="#07060a"/>
+    </linearGradient>
+    <radialGradient id="spot">
+      <stop offset="0" stop-color="#ff5a64" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ff5a64" stop-opacity="0"/>
+    </radialGradient>
+    <symbol id="p" viewBox="0 0 100 120">
+      <circle cx="50" cy="36" r="24"/>
+      <path d="M8 120 C8 84 26 68 50 68 C74 68 92 84 92 120 Z"/>
+    </symbol>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g fill="#2b2534" stroke-width="3">
+    <use href="#p" xlink:href="#p" x="20" y="40" width="100" height="120" stroke="#5ec8e5"/>
+    <use href="#p" xlink:href="#p" x="135" y="40" width="100" height="120" stroke="#f2c14e"/>
+    <use href="#p" xlink:href="#p" x="250" y="40" width="100" height="120" stroke="#9b7bff"/>
+    <use href="#p" xlink:href="#p" x="365" y="40" width="100" height="120" stroke="#5be3a0"/>
+    <use href="#p" xlink:href="#p" x="480" y="40" width="100" height="120" stroke="#ff8fb1"/>
+    <use href="#p" xlink:href="#p" x="20" y="190" width="100" height="120" stroke="#ff8fb1"/>
+    <use href="#p" xlink:href="#p" x="135" y="190" width="100" height="120" stroke="#5be3a0"/>
+    <use href="#p" xlink:href="#p" x="250" y="190" width="100" height="120" stroke="#f2c14e"/>
+    <use href="#p" xlink:href="#p" x="365" y="190" width="100" height="120" stroke="#5ec8e5"/>
+    <use href="#p" xlink:href="#p" x="480" y="190" width="100" height="120" stroke="#9b7bff"/>
+    <use href="#p" xlink:href="#p" x="20" y="340" width="100" height="120" stroke="#9b7bff"/>
+    <use href="#p" xlink:href="#p" x="135" y="340" width="100" height="120" stroke="#5ec8e5"/>
+    <use href="#p" xlink:href="#p" x="365" y="340" width="100" height="120" stroke="#ff8fb1"/>
+    <use href="#p" xlink:href="#p" x="480" y="340" width="100" height="120" stroke="#f2c14e"/>
+    <use href="#p" xlink:href="#p" x="20" y="490" width="100" height="120" stroke="#f2c14e"/>
+    <use href="#p" xlink:href="#p" x="135" y="490" width="100" height="120" stroke="#ff8fb1"/>
+    <use href="#p" xlink:href="#p" x="250" y="490" width="100" height="120" stroke="#5be3a0"/>
+    <use href="#p" xlink:href="#p" x="365" y="490" width="100" height="120" stroke="#9b7bff"/>
+    <use href="#p" xlink:href="#p" x="480" y="490" width="100" height="120" stroke="#5ec8e5"/>
+    <use href="#p" xlink:href="#p" x="20" y="640" width="100" height="120" stroke="#5be3a0"/>
+    <use href="#p" xlink:href="#p" x="135" y="640" width="100" height="120" stroke="#9b7bff"/>
+    <use href="#p" xlink:href="#p" x="250" y="640" width="100" height="120" stroke="#ff8fb1"/>
+    <use href="#p" xlink:href="#p" x="365" y="640" width="100" height="120" stroke="#f2c14e"/>
+    <use href="#p" xlink:href="#p" x="480" y="640" width="100" height="120" stroke="#5be3a0"/>
+  </g>
+  <!-- o escolhido -->
+  <circle cx="300" cy="400" r="150" fill="url(#spot)"/>
+  <use href="#p" xlink:href="#p" x="250" y="340" width="100" height="120" fill="#3a3046" stroke="#ff4d57" stroke-width="3"/>
+  <g fill="none" stroke="#ff4d57" stroke-width="3">
+    <circle cx="300" cy="400" r="88"/>
+    <circle cx="300" cy="400" r="104" stroke-dasharray="10 12" opacity=".7"/>
+    <path d="M300 280 V320 M300 480 V520 M180 400 H220 M380 400 H420"/>
+  </g>
+  <rect x="226" y="516" width="148" height="34" rx="17" fill="#e3212d"/>
+  <text x="300" y="539" text-anchor="middle" font-family="Arial, Helvetica, 'Liberation Sans', sans-serif" font-weight="700" font-size="17" letter-spacing="2" fill="#fff">PARA VOCÊ</text>
+</svg>

@@ -1,0 +1,527 @@
+{
+  "meta": {
+    "brand": "FRANKFLIX",
+    "tagline": "A Plataforma de Streaming da Indústria Cultural",
+    "slogan": "Você acha que está escolhendo. Mas quem escolhe por você?",
+    "discipline": "Filosofia",
+    "grade": "2º ano do Ensino Médio",
+    "event": "Conferência do 4º Bimestre",
+    "heroKicker": "Série original · Conferência de Filosofia",
+    "heroDescription": [
+      "A FRANKFLIX não é uma plataforma de verdade: aqui não há nada para assistir. Ela usa a linguagem do entretenimento — capas, rankings, recomendações e selos — para questionar os mecanismos da Indústria Cultural, conceito criado pelos filósofos da Escola de Frankfurt.",
+      "Cada “filme” ou “série” do catálogo é, na verdade, um conceito filosófico. Clique, explore e desconfie."
+    ],
+    "ratingNote": "Classificações etárias, rankings e selos são fictícios e satíricos: fazem parte da proposta da plataforma.",
+    "disclaimer": "Projeto escolar sem fins comerciais. A FRANKFLIX é uma plataforma fictícia, sem relação com qualquer serviço real de streaming."
+  },
+
+  "student": {
+    "name": "",
+    "class": "2º ano do Ensino Médio",
+    "discipline": "Filosofia",
+    "teacher": "",
+    "school": "",
+    "date": ""
+  },
+
+  "about": {
+    "platformTitle": "O que é esta plataforma?",
+    "platform": [
+      "Em Dialética do Esclarecimento, publicado em 1947, Theodor W. Adorno e Max Horkheimer usaram a expressão Indústria Cultural para descrever a produção de filmes, músicas, programas de rádio e revistas segundo a mesma lógica da produção industrial de mercadorias: em série, padronizada e voltada ao lucro.",
+      "A FRANKFLIX imagina como seria o catálogo de uma plataforma de streaming montado por esses filósofos. A interface parece familiar de propósito: a crítica fica mais clara quando reconhecemos, na própria tela, os recursos que disputam a nossa atenção.",
+      "O catálogo tem três partes: os Originais FRANKFLIX contam a história da Escola de Frankfurt; os Mais Assistidos apresentam quatro conceitos da Indústria Cultural com exemplos atuais; e a seção Cancele sua assinatura traz o parecer final."
+    ],
+    "frankfurtTitle": "A Escola de Frankfurt em poucas linhas",
+    "frankfurt": [
+      "“Escola de Frankfurt” é o nome dado, posteriormente, a um grupo de pensadores ligados ao Instituto de Pesquisa Social (Institut für Sozialforschung), fundado em 1923 em Frankfurt am Main, na Alemanha, e vinculado à universidade da cidade.",
+      "Sob a direção de Max Horkheimer, a partir de 1930, o Instituto passou a reunir filosofia, sociologia, economia e psicanálise para compreender a sociedade de seu tempo: por que as promessas de liberdade da modernidade não se realizaram? Por que tantas pessoas aderiam a movimentos autoritários?",
+      "Esse projeto ficou conhecido como Teoria Crítica. Entre seus nomes mais conhecidos estão Max Horkheimer, Theodor W. Adorno, Herbert Marcuse, Erich Fromm e Leo Löwenthal. Walter Benjamin colaborou com o Instituto e publicou em sua revista, mas não integrou o seu núcleo dirigente."
+    ],
+    "keyPoints": [
+      "Escola de Frankfurt: grupo de pensadores ligados ao Instituto de Pesquisa Social (1923).",
+      "Teoria Crítica: filosofia, sociologia, economia e psicanálise para entender — e transformar — a sociedade.",
+      "Indústria Cultural: a cultura produzida como mercadoria, em série (Adorno e Horkheimer, 1947).",
+      "A FRANKFLIX usa a linguagem do streaming para criticar o próprio streaming."
+    ],
+    "timeline": [
+      { "year": "1923", "text": "Fundação do Instituto de Pesquisa Social em Frankfurt, com recursos obtidos por Felix Weil junto a seu pai, o comerciante Hermann Weil." },
+      { "year": "1924", "text": "Inauguração da sede do Instituto. O historiador Carl Grünberg é o primeiro diretor." },
+      { "year": "1930", "text": "Max Horkheimer assume a direção e propõe um programa de pesquisa interdisciplinar." },
+      { "year": "1932", "text": "Lançamento da Revista de Pesquisa Social (Zeitschrift für Sozialforschung)." },
+      { "year": "1933", "text": "Com a chegada dos nazistas ao poder, o Instituto é fechado. Seus membros partem para o exílio." },
+      { "year": "1934", "text": "O Instituto se estabelece em Nova York, ligado à Universidade Columbia." },
+      { "year": "1937", "text": "Horkheimer publica o ensaio “Teoria tradicional e teoria crítica”." },
+      { "year": "1940", "text": "Walter Benjamin morre em Portbou, na fronteira entre França e Espanha, durante a fuga do nazismo." },
+      { "year": "1947", "text": "Adorno e Horkheimer publicam Dialética do Esclarecimento, em Amsterdã." },
+      { "year": "1951", "text": "Depois do retorno de Horkheimer e Adorno à Alemanha, o Instituto é reaberto em Frankfurt." }
+    ]
+  },
+
+  "originals": [
+    {
+      "id": "o-instituto",
+      "title": "O INSTITUTO",
+      "subtitle": "Frankfurt, 1923",
+      "year": "1923",
+      "category": "Drama histórico",
+      "format": "Minissérie",
+      "cover": {
+        "src": "assets/images/covers/o-instituto.svg",
+        "alt": "Ilustração noturna de uma cidade antiga às margens de um rio, com a torre de uma catedral, casas de telhados escalonados, uma ponte de ferro e uma única janela acesa em um edifício moderno."
+      },
+      "rating": { "age": "14", "descriptors": ["perseguição política", "exílio", "pensamento crítico"] },
+      "tagline": "Eles queriam entender a sociedade. O poder quis calá-los.",
+      "centralQuestion": "Por que a sociedade não caminhou para a liberdade que a razão prometia?",
+      "synopsis": "Alemanha, anos 1920. Depois da Primeira Guerra Mundial e de revoluções fracassadas, um grupo de intelectuais cria em Frankfurt um centro de pesquisa independente para investigar a sociedade capitalista. Com a ascensão do nazismo, em 1933, o Instituto é fechado e seus membros — muitos de origem judaica e de orientação marxista — precisam fugir. No exílio, eles se perguntam como uma civilização que se dizia racional pôde produzir a barbárie.",
+      "description": [
+        "O Instituto de Pesquisa Social nasceu com uma proposta incomum para a época: estudar a sociedade de forma interdisciplinar, unindo filosofia, economia, sociologia, história e, mais tarde, psicanálise. Nos primeiros anos, sob a direção do historiador Carl Grünberg, a ênfase estava na história do movimento operário e na teoria marxista.",
+        "Com Max Horkheimer na direção, a partir de 1930, o Instituto ganhou um programa filosófico próprio: compreender a sociedade como um todo, relacionando economia, cultura e a psicologia dos indivíduos. Esse programa daria origem à Teoria Crítica.",
+        "Depois do exílio e da experiência do nazismo, a pergunta central se aprofundou: como a razão, que deveria libertar, pôde servir à dominação? É dessa reflexão que surgirá, nos anos 1940, a crítica à Indústria Cultural."
+      ],
+      "historicalContext": [
+        "A Alemanha da República de Weimar (1919–1933) vivia instabilidade política, a hiperinflação de 1923 e conflitos entre grupos de esquerda e de direita. A revolução socialista esperada por muitos marxistas não aconteceu nos países industrializados do Ocidente, o que levou intelectuais a perguntar por quê.",
+        "O Instituto foi possível graças aos recursos de Felix Weil, filho do comerciante Hermann Weil. Funcionava vinculado à Universidade de Frankfurt, mas com autonomia financeira.",
+        "Em 1933, com a chegada de Hitler ao poder, o Instituto foi fechado pelas autoridades nazistas. Prevendo esse risco, seus dirigentes já haviam aberto uma filial em Genebra e transferido recursos para fora da Alemanha. Em 1934, o Instituto se estabeleceu em Nova York, junto à Universidade Columbia. Walter Benjamin, que permaneceu na Europa, morreu em 1940 tentando escapar da perseguição. Após a guerra, Horkheimer e Adorno retornaram, e o Instituto foi reaberto em Frankfurt em 1951."
+      ],
+      "caution": "Atenção ao “elenco”: Horkheimer, Adorno, Marcuse e Benjamin são os nomes mais associados à Escola de Frankfurt, mas não foram todos fundadores do Instituto em 1923. A fundação envolveu Felix Weil, Friedrich Pollock e Carl Grünberg, entre outros. Horkheimer acompanhou o projeto desde o início e assumiu a direção em 1930; Marcuse e Adorno se integraram mais tarde.",
+      "concepts": [
+        { "term": "Instituto de Pesquisa Social", "definition": "Centro de pesquisa fundado em 1923 em Frankfurt. É a instituição em torno da qual se formou a chamada Escola de Frankfurt." },
+        { "term": "Escola de Frankfurt", "definition": "Nome dado mais tarde ao conjunto de pensadores ligados ao Instituto e à Teoria Crítica. Não é uma escola no sentido de colégio, mas uma tradição de pensamento." },
+        { "term": "Interdisciplinaridade", "definition": "Combinar diferentes áreas do conhecimento — filosofia, economia, sociologia, psicologia — para compreender um mesmo problema social." },
+        { "term": "Exílio", "definition": "Saída forçada do país de origem. A experiência do exílio marcou profundamente as obras desses autores." }
+      ],
+      "authors": [
+        { "name": "Max Horkheimer", "years": "1895–1973", "role": "Filósofo. Diretor do Instituto a partir de 1930; formulou o programa da Teoria Crítica." },
+        { "name": "Theodor W. Adorno", "years": "1903–1969", "role": "Filósofo, sociólogo e músico. Colaborou com o Instituto nos anos 1930 e tornou-se membro oficial no exílio, em Nova York, em 1938." },
+        { "name": "Herbert Marcuse", "years": "1898–1979", "role": "Filósofo. Juntou-se ao Instituto em 1933, já no exílio. Autor de O homem unidimensional (1964)." },
+        { "name": "Walter Benjamin", "years": "1892–1940", "role": "Ensaísta e crítico. Colaborou com o Instituto e publicou em sua revista, sem integrar o núcleo dirigente." },
+        { "name": "Felix Weil e Carl Grünberg", "years": "participação especial", "role": "Weil viabilizou financeiramente a fundação; Grünberg foi o primeiro diretor (1924–1929)." }
+      ],
+      "studentSummary": "O Instituto de Pesquisa Social foi criado em 1923, em Frankfurt, para estudar a sociedade de forma crítica e interdisciplinar. Perseguido pelo nazismo, partiu para o exílio em 1933 e voltou à Alemanha depois da guerra. Os pensadores ligados a ele ficaram conhecidos como Escola de Frankfurt.",
+      "keyPoints": [
+        "1923: fundação do Instituto de Pesquisa Social, em Frankfurt.",
+        "Proposta interdisciplinar: filosofia, economia, sociologia e psicanálise.",
+        "1930: Horkheimer assume a direção — nasce o programa da Teoria Crítica.",
+        "1933: fechado pelos nazistas; exílio em Genebra e Nova York.",
+        "1951: reabertura em Frankfurt."
+      ],
+      "references": ["wiggershaus", "jay", "ifs", "sep-critical-theory"]
+    },
+    {
+      "id": "a-teoria-critica",
+      "title": "A TEORIA CRÍTICA",
+      "subtitle": "O Ataque",
+      "year": "1937",
+      "category": "Suspense de espionagem",
+      "format": "Filme",
+      "cover": {
+        "src": "assets/images/covers/a-teoria-critica.svg",
+        "alt": "Cena de filme de espionagem: silhueta de uma pessoa de chapéu e sobretudo sob um foco de luz, com documentos espalhados, uma lupa e fios vermelhos ligando pistas."
+      },
+      "rating": { "age": "16", "descriptors": ["questionamento de estruturas de poder", "suspeita de ideologia"] },
+      "tagline": "Não basta descrever o sistema. É preciso perguntar a quem ele serve.",
+      "centralQuestion": "Quem se beneficia com a sua obediência?",
+      "centralQuestionNote": "Pergunta-guia proposta pela atividade; não é uma citação literal de Horkheimer.",
+      "synopsis": "Em 1937, um ensaio de Max Horkheimer expõe uma operação silenciosa: o conhecimento que se apresenta como neutro pode acabar reforçando a ordem social existente. Contra a Teoria Tradicional, que se limita a descrever e organizar os fatos, surge a Teoria Crítica — uma forma de pensar que investiga as estruturas de poder por trás desses fatos e se compromete com a transformação da sociedade. Inspirada em Marx e em Freud, ela faz a pergunta que ninguém quer ouvir.",
+      "description": [
+        "No ensaio “Teoria tradicional e teoria crítica” (1937), Horkheimer chama de Teoria Tradicional o modelo de conhecimento que se consolidou com as ciências modernas: quem pesquisa observa os fatos, formula hipóteses e organiza o conhecimento em sistemas coerentes. Esse modelo é muito eficaz e foi essencial para o avanço da ciência.",
+        "O problema, segundo Horkheimer, aparece quando esse modo de pensar é aplicado à sociedade como se ela fosse um dado natural e imutável. Ao tratar a ordem social apenas como algo a ser descrito, a teoria deixa de perguntar como essa ordem foi produzida historicamente, quem ganha e quem perde com ela, e se ela poderia ser diferente.",
+        "A Teoria Crítica parte da ideia de que o próprio conhecimento é produzido dentro da sociedade e não é totalmente neutro. Seu objetivo não é apenas compreender o mundo, mas contribuir para a emancipação humana: uma sociedade em que as pessoas possam viver com mais autonomia e menos dominação.",
+        "Ela recebe influência de Karl Marx, que analisou o capitalismo como um sistema histórico de relações de produção e de exploração, e de Sigmund Freud, cuja psicanálise ajudava a entender por que as pessoas internalizam a autoridade e, às vezes, chegam a desejar a própria submissão. Os estudos do Instituto sobre autoridade e família, publicados em 1936, combinaram essas duas perspectivas."
+      ],
+      "historicalContext": [
+        "O ensaio foi escrito no exílio, quando o nazismo governava a Alemanha e regimes autoritários se espalhavam pela Europa. Entender por que tantas pessoas apoiavam esses regimes tornou-se uma questão urgente.",
+        "A Teoria Crítica também se diferenciava do marxismo dogmático da época, que esperava uma transformação histórica quase automática a partir da economia. Para Horkheimer, era preciso investigar também a cultura e a psicologia dos indivíduos."
+      ],
+      "comparison": {
+        "title": "Teoria Tradicional × Teoria Crítica",
+        "leftTitle": "Teoria Tradicional",
+        "rightTitle": "Teoria Crítica",
+        "rows": [
+          { "aspect": "Objetivo", "left": "Descrever, explicar e prever fatos.", "right": "Compreender a sociedade para transformá-la, visando a emancipação." },
+          { "aspect": "Visão da sociedade", "left": "Tratada como um dado: “as coisas são assim”.", "right": "Entendida como produto histórico, que poderia ser diferente." },
+          { "aspect": "Quem pesquisa", "left": "Observador que se pretende neutro e separado do objeto.", "right": "Participante da sociedade que analisa; reconhece que o conhecimento tem efeitos sociais." },
+          { "aspect": "Pergunta típica", "left": "Como funciona?", "right": "A quem serve? Poderia ser diferente?" },
+          { "aspect": "Relação com o poder", "left": "Pode acabar reforçando a ordem existente, mesmo sem intenção.", "right": "Busca revelar formas de dominação e de injustiça." },
+          { "aspect": "Inspiração", "left": "Modelo das ciências da natureza e da ciência moderna.", "right": "Marx (crítica da economia política) e Freud (psicanálise)." }
+        ]
+      },
+      "caution": "Para não simplificar: a Teoria Crítica não rejeita a ciência nem a pesquisa empírica — o próprio Instituto realizou pesquisas empíricas. O que ela critica é tomar a sociedade existente como limite do pensamento.",
+      "concepts": [
+        { "term": "Teoria Tradicional", "definition": "Modelo de conhecimento que descreve e organiza os fatos de modo sistemático, tratando a realidade social como um dado." },
+        { "term": "Teoria Crítica", "definition": "Forma de pensar que analisa a sociedade como resultado histórico, revela relações de dominação e busca a emancipação humana." },
+        { "term": "Emancipação", "definition": "Libertação das formas de dominação que impedem as pessoas de decidir sobre a própria vida." },
+        { "term": "Ideologia", "definition": "Na tradição marxista, conjunto de ideias que faz uma ordem social parecer natural e inevitável, ocultando as relações de poder que a sustentam." },
+        { "term": "Internalização da autoridade", "definition": "Processo, estudado com ajuda da psicanálise, pelo qual normas e figuras de autoridade passam a ser obedecidas “de dentro”, sem que a pessoa perceba." }
+      ],
+      "authors": [
+        { "name": "Max Horkheimer", "years": "1895–1973", "role": "Autor de “Teoria tradicional e teoria crítica” (1937)." },
+        { "name": "Karl Marx", "years": "1818–1883", "role": "Filósofo e economista; sua crítica do capitalismo é uma das bases da Teoria Crítica." },
+        { "name": "Sigmund Freud", "years": "1856–1939", "role": "Criador da psicanálise; ajudou a Teoria Crítica a pensar a dimensão psicológica da dominação." },
+        { "name": "Erich Fromm", "years": "1900–1980", "role": "Psicanalista ligado ao Instituto nos anos 1930; contribuiu para aproximar marxismo e psicanálise." }
+      ],
+      "studentSummary": "A Teoria Tradicional descreve a sociedade como ela é; a Teoria Crítica pergunta por que ela é assim, a quem isso beneficia e como poderia ser diferente. Ela combina ideias de Marx e de Freud e tem como objetivo a emancipação humana.",
+      "keyPoints": [
+        "Horkheimer, 1937: “Teoria tradicional e teoria crítica”.",
+        "Tradicional: descreve e organiza fatos, como se a sociedade fosse natural.",
+        "Crítica: pergunta a quem a ordem social serve e se poderia ser diferente.",
+        "Bases: Marx (economia e poder) + Freud (psicologia da obediência).",
+        "Objetivo: emancipação, não apenas explicação."
+      ],
+      "references": ["horkheimer-teoria", "nobre", "freitag", "sep-critical-theory"]
+    },
+    {
+      "id": "dialetica-do-esclarecimento",
+      "title": "DIALÉTICA DO ESCLARECIMENTO",
+      "subtitle": "Fragmentos filosóficos",
+      "year": "1947",
+      "category": "Drama filosófico",
+      "format": "Filme",
+      "cover": {
+        "src": "assets/images/covers/dialetica-do-esclarecimento.svg",
+        "alt": "Livro antigo aberto, de onde saem raios de luz que se transformam em chamas, em meio a brasas e fumaça."
+      },
+      "rating": { "age": "18", "descriptors": ["barbárie histórica", "autocrítica da razão"] },
+      "tagline": "A luz que prometia libertar também podia cegar.",
+      "centralQuestion": "Se a razão prometia nos libertar, como pôde servir à dominação?",
+      "synopsis": "Exilados nos Estados Unidos durante a Segunda Guerra Mundial, Theodor Adorno e Max Horkheimer investigam um paradoxo: o Esclarecimento prometia libertar a humanidade do medo e da ignorância por meio da razão, mas o século XX conheceu guerras mundiais, regimes totalitários e o extermínio em massa em campos como Auschwitz. Como a razão pôde ser posta a serviço da dominação? A resposta passa pela razão instrumental — e chega até a indústria do entretenimento.",
+      "description": [
+        "Esclarecimento (em alemão, Aufklärung) designa tanto o movimento iluminista dos séculos XVII e XVIII quanto, de modo mais amplo, o processo pelo qual a humanidade procura dominar a natureza e superar o medo por meio do conhecimento. Kant o definiu, em 1784, como a saída do ser humano de sua menoridade — isto é, da incapacidade de usar o próprio entendimento sem a direção de outra pessoa.",
+        "Adorno e Horkheimer não rejeitam a razão nem o Iluminismo. Eles mostram que o esclarecimento é dialético: carrega em si tanto a promessa de liberdade quanto a possibilidade de se converter em seu contrário. Quando a razão passa a servir apenas para calcular, controlar e dominar — a natureza e também os seres humanos —, ela perde a capacidade de refletir sobre os próprios fins.",
+        "Essa é a razão instrumental: uma racionalidade preocupada com os meios mais eficientes para alcançar um objetivo, sem perguntar se o objetivo é justo ou desejável. Horkheimer desenvolveu essa ideia também no livro Eclipse da razão (1947).",
+        "A obra contém o capítulo “A indústria cultural: o esclarecimento como mistificação das massas”. Nele, os autores mostram que a mesma lógica de cálculo e eficiência que organiza a produção industrial passou a organizar a cultura: filmes, músicas e programas de rádio produzidos em série, para o consumo e o lucro. A Indústria Cultural seria, assim, uma das faces de um esclarecimento que se volta contra a autonomia que prometia."
+      ],
+      "historicalContext": [
+        "O livro foi escrito no exílio nos Estados Unidos, principalmente na Califórnia, durante a Segunda Guerra Mundial. Circulou em versão mimeografada em 1944, com o título Fragmentos filosóficos, e foi publicado em 1947 pela editora Querido, em Amsterdã.",
+        "Os autores escreviam diante do nazismo, da guerra e do extermínio dos judeus europeus, mas também observando a sociedade de consumo norte-americana, com o cinema de Hollywood e o rádio comercial.",
+        "Adorno explicou mais tarde, em uma palestra de 1963, que eles preferiram a expressão “indústria cultural” a “cultura de massa” para afastar a ideia de que essa cultura nasceria espontaneamente das próprias massas."
+      ],
+      "caution": "Cuidado com simplificações: Dialética do Esclarecimento não afirma que o Iluminismo “causou” o nazismo. A tese é mais complexa: certas formas de racionalidade, reduzidas a instrumento de dominação, ajudaram a tornar possíveis a técnica, a burocracia e a administração que a barbárie utilizou. A obra é uma autocrítica da razão feita em nome da própria razão.",
+      "concepts": [
+        { "term": "Esclarecimento (Aufklärung)", "definition": "Processo de libertação do medo e da ignorância pelo uso da razão; também o nome do movimento iluminista." },
+        { "term": "Dialética", "definition": "Aqui, movimento em que algo produz o seu contrário: o esclarecimento que liberta também pode dominar." },
+        { "term": "Razão instrumental", "definition": "Racionalidade voltada apenas para os meios mais eficientes, sem questionar se os fins são justos." },
+        { "term": "Dominação da natureza", "definition": "Controle técnico do mundo natural que, segundo os autores, acaba se estendendo ao controle dos próprios seres humanos." },
+        { "term": "Indústria Cultural", "definition": "Expressão de Adorno e Horkheimer para a produção de bens culturais segundo a lógica industrial e mercantil." }
+      ],
+      "authors": [
+        { "name": "Theodor W. Adorno", "years": "1903–1969", "role": "Coautor de Dialética do Esclarecimento." },
+        { "name": "Max Horkheimer", "years": "1895–1973", "role": "Coautor de Dialética do Esclarecimento; autor de Eclipse da razão (1947)." },
+        { "name": "Immanuel Kant", "years": "1724–1804", "role": "Filósofo iluminista; autor de “Resposta à pergunta: que é Esclarecimento?” (1784)." }
+      ],
+      "studentSummary": "Para Adorno e Horkheimer, a razão pode libertar, mas também pode dominar. Quando vira apenas um instrumento de cálculo e controle (razão instrumental), ela deixa de questionar os fins — e essa lógica alcança até a cultura, transformada em mercadoria pela Indústria Cultural.",
+      "keyPoints": [
+        "Escrito no exílio; publicado em 1947 por Adorno e Horkheimer.",
+        "Esclarecimento: a promessa de libertar pela razão.",
+        "Dialética: a razão que liberta também pode dominar.",
+        "Razão instrumental: eficiência nos meios, sem questionar os fins.",
+        "Daí nasce o conceito de Indústria Cultural."
+      ],
+      "references": ["dialetica", "horkheimer-eclipse", "kant", "adorno-industria", "sep-adorno"]
+    }
+  ],
+
+  "mostWatched": [
+    {
+      "id": "a-formula",
+      "rank": 1,
+      "title": "A FÓRMULA",
+      "subtitle": "Nova temporada, mesmo roteiro",
+      "concept": "Padronização",
+      "category": "Série musical",
+      "cover": {
+        "src": "assets/images/covers/a-formula.svg",
+        "alt": "Grade de quadrados idênticos, todos com a mesma onda sonora vermelha; apenas um tem uma cor levemente diferente."
+      },
+      "badge": "100% INÉDITO (DE NOVO)",
+      "tagline": "Muda o rosto na capa. A receita continua a mesma.",
+      "synopsis": "Toda semana, um “lançamento inédito” chega às plataformas. A batida é a que já funcionou, o refrão chega logo no início, a duração cabe no corte para vídeo curto e a coreografia já vem pronta para viralizar. Em A FÓRMULA, a surpresa é o único ingrediente que nunca entra na receita.",
+      "description": [
+        "Para Adorno, a Indústria Cultural funciona pela padronização: os produtos culturais seguem esquemas fixos, testados e repetidos, porque isso reduz riscos, facilita a produção em série e torna o consumo previsível. No ensaio “Sobre música popular” (1941), ele analisa canções de sucesso construídas com partes intercambiáveis: trechos de uma poderiam ser trocados pelos de outra sem alterar o efeito do conjunto.",
+        "Em Dialética do Esclarecimento, Adorno e Horkheimer descrevem filmes cujo final pode ser adivinhado desde o início, porque o público já foi treinado pela repetição. O novo aparece como detalhe superficial; o esquema permanece.",
+        "A padronização não atinge só o produto, mas também a escuta: quem se acostuma a receber tudo pronto tende a estranhar — e a rejeitar — o que foge da fórmula."
+      ],
+      "contemporaryExample": {
+        "illustrative": true,
+        "text": "Pense nas músicas que viralizam em plataformas de vídeos curtos: muitas são lançadas já com um trecho curto pensado para virar “trend”, com uma coreografia simples e fácil de copiar. O mesmo vale para vídeos que repetem sempre a mesma estrutura — título chamativo, rosto surpreso na miniatura e a promessa de uma revelação “no final do vídeo” — e para séries que terminam todos os episódios com um gancho para o próximo."
+      },
+      "relation": "A fórmula viral é padronização em estado puro: a música é pensada a partir do formato que a plataforma favorece, e não o contrário. A diferença entre um sucesso e outro fica na superfície — artista, letra, figurino —, enquanto a estrutura se repete porque já provou que “funciona”, ou seja, que gera visualizações e lucro.",
+      "criticalAnalysis": "A repetição não é simples falta de criatividade de quem produz: é uma decisão econômica. Fórmulas reduzem o risco de investir em algo que pode não vender. Ao mesmo tempo, elas educam o gosto: quanto mais ouvimos o mesmo esquema, mais o desconhecido parece “estranho” ou “chato”. A padronização fabrica o produto e, junto com ele, o consumidor que vai querer esse produto.",
+      "nuance": "Nem toda repetição é padronização no sentido de Adorno: refrões, rimas e gêneros musicais existem há séculos na cultura popular. A crítica se dirige à repetição imposta pela lógica do mercado, que limita a experimentação.",
+      "reflectionQuestion": "Quando foi a última vez que você gostou de uma música que não “grudou” logo na primeira escuta?",
+      "concepts": [
+        { "term": "Padronização", "definition": "Produção cultural baseada em esquemas fixos e repetidos, que garantem previsibilidade de produção e de consumo." },
+        { "term": "Esquema", "definition": "Estrutura pronta — de uma canção, de um filme, de um vídeo — que é reaproveitada com pequenas variações." },
+        { "term": "Produção em série", "definition": "Lógica da fábrica aplicada à cultura: muitos produtos semelhantes, feitos de modo rápido e barato." }
+      ],
+      "authors": [
+        { "name": "Theodor W. Adorno", "years": "1903–1969", "role": "Analisou a padronização em “Sobre música popular” (1941)." },
+        { "name": "Max Horkheimer", "years": "1895–1973", "role": "Coautor do capítulo sobre a Indústria Cultural (1947)." }
+      ],
+      "studentExample": {
+        "prompt": "Exemplo real escolhido pelo(a) estudante: cole aqui um print ou descreva um caso concreto (música, vídeo, série), indicando a fonte.",
+        "text": ""
+      },
+      "keyPoints": [
+        "Padronização: a cultura feita a partir de fórmulas testadas.",
+        "Adorno, “Sobre música popular” (1941): partes intercambiáveis.",
+        "Hoje: músicas pensadas para o trecho viral do vídeo curto.",
+        "A fórmula fabrica o produto e o gosto de quem consome."
+      ],
+      "references": ["adorno-popular-music", "dialetica", "duarte"]
+    },
+    {
+      "id": "feito-pra-voce",
+      "rank": 2,
+      "title": "FEITO PRA VOCÊ",
+      "subtitle": "e para outros milhões de pessoas",
+      "concept": "Pseudo-individualização",
+      "category": "Comédia de algoritmo",
+      "cover": {
+        "src": "assets/images/covers/feito-pra-voce.svg",
+        "alt": "Multidão de silhuetas idênticas, cada uma com um contorno de cor diferente; uma delas está no centro de uma mira vermelha com a etiqueta “para você”."
+      },
+      "badge": "EDIÇÃO EXCLUSIVA PARA TODOS",
+      "tagline": "Você é único. Igualzinho a todo mundo.",
+      "synopsis": "Você escolheu o tema do celular, a foto de perfil, o filtro, a playlist “só sua” e a cor do tênis. Tudo diz: você é único. Mas o cardápio de opções foi desenhado antes de você chegar, e as mesmas escolhas “exclusivas” foram oferecidas a milhões de pessoas ao mesmo tempo. Uma comédia sobre quanto de nós existe dentro do “Para você”.",
+      "description": [
+        "A pseudo-individualização é o outro lado da padronização. Adorno, também no ensaio “Sobre música popular” (1941), chama assim o recurso de dar aos produtos padronizados um ar de novidade e de escolha pessoal, por meio de pequenos detalhes que os diferenciam. “Pseudo” quer dizer falso: a individualidade do produto é aparente.",
+        "O detalhe diferente — um timbre, um visual, um “toque pessoal” — faz o consumidor sentir que escolheu algo especial quando, na verdade, escolheu entre variações de um mesmo modelo. Assim a padronização fica escondida, e a pessoa se sente livre justamente quando segue o padrão.",
+        "Personalizar não é, em si, um problema. A crítica filosófica não diz que as escolhas individuais não existem, mas que muitas vezes elas acontecem dentro de limites definidos por outros — e que a sensação de exclusividade pode ser vendida como parte do produto."
+      ],
+      "contemporaryExample": {
+        "illustrative": true,
+        "text": "Ao abrir um aplicativo de música ou de vídeos, você encontra listas como “Feito para você” ou “Seu mix do dia”. A seleção é calculada a partir do seu histórico e do comportamento de pessoas com hábitos parecidos. Algo semelhante acontece com produtos “personalizáveis”: o tênis em que você escolhe as cores, o celular em que você escolhe a capinha. A escolha é real, mas acontece dentro de um catálogo de opções definido pela empresa."
+      },
+      "relation": "A mensagem “feito para você” transforma um cálculo estatístico em experiência de exclusividade. O sistema não conhece você como pessoa única: ele agrupa você com outros perfis semelhantes. A sensação de individualidade é verdadeira; o que é “pseudo” é a individualidade do produto.",
+      "criticalAnalysis": "Quanto mais você sente que o conteúdo foi escolhido “só para você”, menos percebe o que ficou de fora. As opções são limitadas pelo que é lucrativo oferecer, e a personalização também serve para manter você mais tempo na plataforma. A pergunta não é se você escolhe, mas quem montou o cardápio do qual você escolhe.",
+      "nuance": "Recomendações podem ajudar a descobrir coisas novas, e personalizar objetos pode ser uma forma legítima de expressão. A diferença está entre uma escolha consciente e uma escolha que apenas parece livre porque seus limites ficaram invisíveis.",
+      "reflectionQuestion": "Se milhões de pessoas receberam uma lista “feita para elas”, o que, nas suas escolhas, é realmente seu?",
+      "concepts": [
+        { "term": "Pseudo-individualização", "definition": "Aparência de originalidade e de escolha pessoal dada a produtos que continuam padronizados." },
+        { "term": "Personalização algorítmica", "definition": "Seleção automática de conteúdos com base em dados de comportamento do usuário e de perfis parecidos." },
+        { "term": "Liberdade aparente", "definition": "Sensação de escolha livre que ignora quem definiu as opções disponíveis." }
+      ],
+      "authors": [
+        { "name": "Theodor W. Adorno", "years": "1903–1969", "role": "Formulou o conceito de pseudo-individualização em “Sobre música popular” (1941)." },
+        { "name": "Eli Pariser", "years": "1980–", "role": "Ativista e autor contemporâneo; popularizou a ideia de “bolha de filtro” em O filtro invisível (2011). Leitura complementar, não integra a Escola de Frankfurt." }
+      ],
+      "studentExample": {
+        "prompt": "Exemplo real escolhido pelo(a) estudante: cole aqui um print de uma recomendação “para você” ou de um produto “personalizável”, indicando a fonte.",
+        "text": ""
+      },
+      "keyPoints": [
+        "Pseudo-individualização: o padrão disfarçado de escolha pessoal.",
+        "Pequenos detalhes criam a sensação de exclusividade.",
+        "Hoje: listas “Feito para você” calculadas por algoritmos.",
+        "A pergunta: quem montou o cardápio das suas escolhas?"
+      ],
+      "references": ["adorno-popular-music", "pariser", "duarte"]
+    },
+    {
+      "id": "so-mais-um-episodio",
+      "rank": 3,
+      "title": "SÓ MAIS UM EPISÓDIO",
+      "subtitle": "Próximo episódio em 5… 4… 3…",
+      "concept": "Diversão como fuga",
+      "category": "Maratona",
+      "cover": {
+        "src": "assets/images/covers/so-mais-um-episodio.svg",
+        "alt": "Sala escura iluminada apenas pela luz azul de uma tela com contagem regressiva para o próximo episódio; uma pessoa no sofá, de costas, e um relógio marcando quase meia-noite."
+      },
+      "badge": "DESCANSO GARANTIDO ATÉ SEGUNDA-FEIRA",
+      "tagline": "O sofá é confortável. A rotina também.",
+      "synopsis": "São 23h47. O dia foi longo: aula, tarefas, trabalho, cobranças. Ninguém precisa tocar no controle — o próximo episódio começa sozinho. O feed não tem fim, e o vídeo seguinte já está carregado. A série prometia descanso; quando o despertador toca, a rotina recomeça exatamente igual. Em SÓ MAIS UM EPISÓDIO, ninguém sai do sofá, e o enredo nunca muda.",
+      "description": [
+        "Em Dialética do Esclarecimento, Adorno e Horkheimer afirmam que, no capitalismo tardio, a diversão se torna um prolongamento do trabalho: ela é procurada por quem quer escapar do trabalho mecanizado para recuperar as forças e, assim, conseguir enfrentá-lo de novo. O entretenimento, nesse sentido, não interrompe a rotina — ajuda a mantê-la funcionando.",
+        "Para os autores, divertir-se muitas vezes significa “não ter que pensar” e esquecer o sofrimento, mesmo quando ele está diante dos olhos. A fuga oferecida não seria tanto uma fuga da realidade ruim, mas uma fuga do pensamento que poderia resistir a ela.",
+        "No ensaio “Tempo livre” (1969), Adorno observa que o tempo livre tende a ser organizado segundo as mesmas regras do trabalho e do consumo, em vez de se tornar um espaço de autonomia."
+      ],
+      "contemporaryExample": {
+        "illustrative": true,
+        "text": "Muitas plataformas iniciam automaticamente o próximo episódio depois de alguns segundos, e aplicativos de vídeos curtos oferecem um feed sem fim, em que sempre existe mais um conteúdo. Imagine um estudante que, depois de um dia cansativo, abre o celular “só para relaxar cinco minutos” e percebe, uma hora depois, que não descansou de verdade nem pensou sobre o próprio dia."
+      },
+      "relation": "A reprodução automática e a rolagem infinita tornam a pausa — o momento em que poderíamos decidir parar ou refletir — cada vez mais rara. O entretenimento ocupa o tempo livre com estímulos rápidos e ajuda a recompor a energia para o dia seguinte sem que a rotina seja questionada.",
+      "criticalAnalysis": "O seu tempo livre é um dos produtos mais disputados: cada minuto a mais diante da tela pode ser convertido em dados e em publicidade. A diversão que parece uma fuga da rotina pode ser parte dela — descansar sem pensar para voltar amanhã ao mesmo lugar, do mesmo jeito.",
+      "nuance": "Isso não significa que todo entretenimento seja alienante ou que descansar seja errado. Lazer, humor e ficção podem ser fontes de prazer, de encontro e até de crítica. A questão levantada por Adorno é se o tempo livre ainda é nosso ou se foi organizado pela mesma lógica que organiza o trabalho e o consumo.",
+      "reflectionQuestion": "Depois de horas de entretenimento, você se sente descansado ou apenas anestesiado?",
+      "concepts": [
+        { "term": "Diversão como fuga", "definition": "Entretenimento que alivia o cansaço sem permitir reflexão, ajudando a manter a rotina como está." },
+        { "term": "Prolongamento do trabalho", "definition": "Ideia de que o lazer serve para repor as energias necessárias ao trabalho, e não para a autonomia." },
+        { "term": "Tempo livre", "definition": "Tempo fora do trabalho que, segundo Adorno, tende a ser ocupado pela lógica do consumo." }
+      ],
+      "authors": [
+        { "name": "Theodor W. Adorno", "years": "1903–1969", "role": "Autor de “Tempo livre” (1969) e coautor de Dialética do Esclarecimento." },
+        { "name": "Max Horkheimer", "years": "1895–1973", "role": "Coautor de Dialética do Esclarecimento." },
+        { "name": "Byung-Chul Han", "years": "1959–", "role": "Filósofo contemporâneo, autor de Sociedade do cansaço (2010). Leitura complementar, não integra a Escola de Frankfurt." }
+      ],
+      "studentExample": {
+        "prompt": "Exemplo real escolhido pelo(a) estudante: descreva um recurso de reprodução automática ou de rolagem infinita que você usa, ou anote quanto tempo passou em um aplicativo em um dia comum.",
+        "text": ""
+      },
+      "keyPoints": [
+        "Diversão como prolongamento do trabalho (Dialética do Esclarecimento).",
+        "Fuga do pensamento, mais do que fuga da realidade.",
+        "Hoje: reprodução automática e feed infinito.",
+        "Nem todo lazer é alienante — a questão é de quem é o tempo livre."
+      ],
+      "references": ["dialetica", "adorno-tempo-livre", "han"]
+    },
+    {
+      "id": "a-etiqueta",
+      "rank": 4,
+      "title": "A ETIQUETA",
+      "subtitle": "O preço do que você parece ser",
+      "concept": "Fetiche da mercadoria",
+      "category": "Drama de luxo",
+      "cover": {
+        "src": "assets/images/covers/a-etiqueta.svg",
+        "alt": "Etiqueta de preço dourada, com uma coroa e um código de barras, brilhando sobre um pedestal sob um foco de luz."
+      },
+      "badge": "STATUS INCLUSO · UTILIDADE OPCIONAL",
+      "tagline": "Você não compra o objeto. Compra o que ele diz sobre você.",
+      "synopsis": "Dois tênis muito parecidos. Um custa dez vezes mais que o outro. A fila na porta da loja começa de madrugada, e quem consegue o par posta a foto antes mesmo de calçá-lo. Em A ETIQUETA, o objeto quase não aparece em cena: o protagonista é o que ele promete — prestígio, pertencimento, identidade.",
+      "description": [
+        "O conceito vem de Karl Marx. No primeiro capítulo de O capital (1867), ele chama de fetichismo da mercadoria o fenômeno pelo qual relações sociais entre pessoas — o trabalho de quem produz e as condições em que se produz — aparecem como se fossem propriedades das próprias coisas. O valor parece estar “dentro” do objeto, e o trabalho humano que o produziu desaparece da vista.",
+        "Adorno retoma essa ideia para pensar a cultura. No ensaio “O fetichismo na música e a regressão da audição” (1938), ele observa que o ouvinte pode passar a valorizar um concerto ou um disco pelo que custou e pelo prestígio de tê-lo, mais do que pela experiência musical. O valor de troca ocupa o lugar da relação com a obra.",
+        "É importante distinguir: em Marx, o fetichismo descreve a forma da mercadoria em geral no capitalismo; em Adorno, a ideia é aplicada aos bens culturais e à maneira como os consumimos. A relação entre consumo, status e identidade discutida hoje é uma interpretação contemporânea que parte desses autores."
+      ],
+      "contemporaryExample": {
+        "illustrative": true,
+        "text": "Pense em lançamentos de tênis, roupas ou celulares de edição limitada. Mais do que pela utilidade, muitas pessoas os desejam pelo que comunicam: estar na moda, pertencer a um grupo, ser visto. Nas redes sociais, mostrar o produto pode ser tão importante quanto usá-lo. Raramente se pergunta quem o fabricou, em que condições e por que custa o que custa."
+      },
+      "relation": "Quando o valor de um objeto parece vir da marca e do prestígio que ele confere, e não do trabalho e da utilidade envolvidos, temos um exemplo do que, a partir de Marx e de Adorno, se chama fetiche: a mercadoria parece ter um poder próprio, quase mágico, de nos tornar alguém.",
+      "criticalAnalysis": "A etiqueta esconde a história do produto: o trabalho de quem o fez, os custos sociais e ambientais e as estratégias de publicidade que criaram o desejo. E promete algo que nenhuma mercadoria entrega sozinha — identidade e reconhecimento. Quando a pessoa passa a se definir pelo que compra, a própria identidade vira produto.",
+      "nuance": "Usar marcas ou gostar de certos objetos não faz de ninguém uma pessoa manipulada; os objetos sempre tiveram significados sociais. A crítica se volta para uma sociedade em que o valor das pessoas passa a ser medido pelo que elas podem comprar e exibir.",
+      "reflectionQuestion": "Se ninguém pudesse ver o que você compra, você continuaria querendo as mesmas coisas?",
+      "concepts": [
+        { "term": "Mercadoria", "definition": "Produto do trabalho feito para ser trocado no mercado." },
+        { "term": "Fetichismo da mercadoria (Marx)", "definition": "Relações sociais de produção aparecem como propriedades das coisas; o trabalho humano fica oculto." },
+        { "term": "Fetichismo na música (Adorno)", "definition": "Valorização do bem cultural pelo seu preço e prestígio, e não pela experiência da obra." },
+        { "term": "Valor de uso e valor de troca", "definition": "A utilidade de um objeto e o seu valor no mercado, que podem estar muito distantes." }
+      ],
+      "authors": [
+        { "name": "Karl Marx", "years": "1818–1883", "role": "Formulou o conceito de fetichismo da mercadoria em O capital (1867)." },
+        { "name": "Theodor W. Adorno", "years": "1903–1969", "role": "Aplicou a ideia à cultura em “O fetichismo na música e a regressão da audição” (1938)." }
+      ],
+      "studentExample": {
+        "prompt": "Exemplo real escolhido pelo(a) estudante: cole aqui a imagem de uma campanha publicitária ou de um lançamento “exclusivo”, indicando a fonte.",
+        "text": ""
+      },
+      "keyPoints": [
+        "Origem em Marx (O capital, 1867): o trabalho some, o objeto parece ter valor próprio.",
+        "Adorno (1938): o bem cultural vale pelo preço e pelo prestígio.",
+        "Hoje: marcas, edições limitadas e status nas redes.",
+        "A etiqueta esconde a história do produto e vende identidade."
+      ],
+      "references": ["marx-capital", "adorno-fetichismo", "sep-adorno"]
+    }
+  ],
+
+  "verdict": {
+    "kicker": "Parecer final · Crítica da própria plataforma",
+    "title": "POR QUE VOCÊ DEVERIA CANCELAR A FRANKFLIX?",
+    "score": 1,
+    "scoreLabel": "Nota fictícia da crítica: 1 de 5 — recomendada apenas para quem quer continuar pensando.",
+    "notice": "TEXTO-BASE PARA REVISÃO. Este parecer é uma proposta inicial de estudo. O(a) estudante deve revisá-lo, reescrevê-lo com as próprias palavras e decidir quais posições defende: a opinião apresentada na conferência é de sua responsabilidade.",
+    "intro": "Uma plataforma que recomenda tudo o que você quer ver merece uma crítica que diga o que você talvez não queira ouvir. A partir das ideias da Escola de Frankfurt, este parecer examina três perguntas.",
+    "questions": [
+      {
+        "question": "O TikTok e os algoritmos de recomendação podem representar formas de influência mais intensas do que a televisão criticada por Adorno?",
+        "shortAnswer": "Em vários aspectos, sim — mas não de forma simples.",
+        "blocks": [
+          { "label": "Argumento", "text": "O rádio, o cinema e a televisão criticados por Adorno transmitiam a mesma programação para todos. Os algoritmos de recomendação funcionam de outro modo: registram o que cada pessoa assiste, por quanto tempo, o que curte e o que pula, e usam esses dados para ajustar continuamente o que será exibido. A influência deixa de ser igual para todos e passa a ser sob medida, contínua e portátil — está no bolso, a qualquer hora." },
+          { "label": "Argumento", "text": "Padronização e pseudo-individualização ganham novas formas: muitos criadores adaptam seus conteúdos ao que o algoritmo favorece, e o usuário recebe essa padronização como se fosse uma escolha íntima, “para você”." },
+          { "label": "Contraponto", "text": "Há diferenças importantes. Nas plataformas, qualquer pessoa pode produzir e publicar, o que abriu espaço para vozes que a televisão dos anos 1940 jamais mostraria. O público também não é totalmente passivo: estudiosos como Stuart Hall destacaram que as pessoas interpretam e ressignificam o que consomem. Além disso, pesquisadores ainda debatem o tamanho real de efeitos como as chamadas “bolhas de filtro”." },
+          { "label": "Síntese", "text": "Talvez a melhor resposta seja: o algoritmo não é necessariamente “pior” em tudo, mas torna a Indústria Cultural mais eficiente, mais personalizada e mais difícil de perceber. A crítica de Adorno continua útil justamente para enxergar o que a interface faz parecer natural." }
+        ],
+        "keyPoints": [
+          "TV: a mesma programação para todos. Algoritmo: influência sob medida, contínua e no bolso.",
+          "Padronização disfarçada de escolha íntima (“para você”).",
+          "Contraponto: mais vozes podem publicar; o público também reinterpreta.",
+          "Síntese: não é “pior” em tudo, mas é mais eficiente e mais difícil de perceber."
+        ]
+      },
+      {
+        "question": "Ainda existe arte autêntica capaz de escapar ou resistir à lógica da Indústria Cultural? Onde?",
+        "shortAnswer": "Escapar por completo é difícil; resistir, ainda é possível.",
+        "blocks": [
+          { "label": "Argumento", "text": "Para Adorno, a arte autêntica não é a que agrada de imediato, mas a que tem autonomia: segue suas próprias exigências, provoca estranhamento e obriga a pensar, em vez de confirmar o que já esperamos. Ele via esse potencial em obras de vanguarda, como a música de Arnold Schoenberg e a literatura de Franz Kafka e Samuel Beckett." },
+          { "label": "Argumento", "text": "Hoje é difícil encontrar uma arte totalmente “fora” do mercado: quase tudo circula em plataformas e depende de divulgação. Mesmo assim, a resistência pode aparecer em lugares diversos — na produção independente; em manifestações culturais locais e comunitárias, como saraus, batalhas de poesia, grupos de teatro e coletivos de periferia; e em obras que, mesmo distribuídas comercialmente, rompem fórmulas e provocam reflexão." },
+          { "label": "Contraponto", "text": "Há debate dentro da própria tradição. Walter Benjamin via na reprodução técnica não só a perda da “aura” da obra única, mas também novas possibilidades políticas, como o acesso de mais pessoas à arte. Adorno, por sua vez, foi criticado por certo elitismo — por exemplo, em seus textos sobre o jazz." },
+          { "label": "Síntese", "text": "Talvez a pergunta não seja “onde está a arte pura?”, mas “que obras ainda nos fazem pensar, estranhar e imaginar outro mundo possível?”. Responder exige procurar além do que é recomendado. Sugestão para o(a) estudante: inclua aqui um exemplo de obra ou de manifestação cultural que você conheça e explique por que ela resiste à fórmula." }
+        ],
+        "keyPoints": [
+          "Arte autêntica, para Adorno: autonomia, estranhamento, reflexão.",
+          "Hoje: produção independente, cultura local e comunitária, obras que rompem fórmulas.",
+          "Contraponto: Benjamin via potencial na reprodução técnica; Adorno é acusado de elitismo.",
+          "A pergunta muda: que obras ainda nos fazem pensar?"
+        ]
+      },
+      {
+        "question": "Como desenvolver autonomia e pensamento crítico para reduzir a manipulação cultural?",
+        "shortAnswer": "Não há saída individual simples, mas há caminhos — e a educação é um deles.",
+        "blocks": [
+          { "label": "Argumento", "text": "Para a Escola de Frankfurt, a Indústria Cultural é um problema social e econômico, não apenas de escolhas pessoais; por isso não existe uma “saída” individual simples. Ainda assim, Adorno atribuiu à educação um papel decisivo. Nos textos reunidos em Educação e emancipação, ele defende uma educação que forme pessoas capazes de reflexão crítica e de resistir à adesão cega a grupos e autoridades, para que a barbárie de Auschwitz não se repita." },
+          { "label": "Na prática", "text": "Algumas atitudes ajudam: perguntar quem produziu um conteúdo, com que interesse e quem lucra com ele; desligar a reprodução automática e decidir quando parar; procurar conteúdos fora das recomendações, como bibliotecas, cinema nacional, teatro e músicas de outros tempos e lugares; conversar sobre o que se consome; e criar, e não apenas consumir." },
+          { "label": "Contraponto", "text": "É preciso reconhecer limites: ninguém está totalmente fora da Indústria Cultural — nem quem a critica. E a autonomia também depende de condições coletivas, como acesso à cultura e debates públicos sobre a transparência das plataformas." },
+          { "label": "Síntese", "text": "A autonomia não é um estado que se alcança de uma vez, mas um exercício permanente de questionamento, feito individualmente e em conjunto." }
+        ],
+        "keyPoints": [
+          "Não há saída individual simples: o problema é social e econômico.",
+          "Adorno: educação para a emancipação e a reflexão crítica.",
+          "Na prática: perguntar quem lucra, desligar o automático, buscar fora do algoritmo, criar.",
+          "Autonomia é exercício permanente — e também coletivo."
+        ]
+      }
+    ],
+    "conclusion": "Cancelar a FRANKFLIX não significa abandonar a cultura, a tecnologia ou o entretenimento. Significa recusar o papel de espectador que apenas aceita o que é oferecido. A Escola de Frankfurt não nos entrega um manual de libertação, mas uma pergunta que vale para cada clique: quem está escolhendo por mim, e por quê?",
+    "closingMessage": "O verdadeiro ato de liberdade começa quando você questiona o que consome.",
+    "closingNote": "Mensagem editorial do projeto FRANKFLIX — não é uma citação dos filósofos da Escola de Frankfurt.",
+    "cancelButton": "Cancelar assinatura",
+    "cancelMessage": "Assinatura cancelada. A partir de agora, a escolha é sua.",
+    "references": ["adorno-educacao", "benjamin-obra", "hall", "pariser", "zuboff", "marcuse", "sep-benjamin"]
+  },
+
+  "references": {
+    "dialetica": { "citation": "ADORNO, Theodor W.; HORKHEIMER, Max. Dialética do esclarecimento: fragmentos filosóficos. Tradução de Guido Antonio de Almeida. Rio de Janeiro: Zahar, 1985. (Original de 1947.)" },
+    "adorno-popular-music": { "citation": "ADORNO, Theodor W.; SIMPSON, George. On popular music. Studies in Philosophy and Social Science, Nova York, v. 9, p. 17-48, 1941. Tradução brasileira: “Sobre música popular”. In: COHN, Gabriel (org.). Theodor W. Adorno: sociologia. São Paulo: Ática, 1986.", "verify": true },
+    "adorno-fetichismo": { "citation": "ADORNO, Theodor W. O fetichismo na música e a regressão da audição. In: BENJAMIN, Walter et al. Textos escolhidos. São Paulo: Abril Cultural, 1975. (Os Pensadores). (Original de 1938.)", "verify": true },
+    "adorno-industria": { "citation": "ADORNO, Theodor W. A indústria cultural. In: COHN, Gabriel (org.). Theodor W. Adorno: sociologia. São Paulo: Ática, 1986. (Palestra de 1963.)", "verify": true },
+    "adorno-tempo-livre": { "citation": "ADORNO, Theodor W. Tempo livre. In: Palavras e sinais: modelos críticos 2. Petrópolis: Vozes, 1995. (Original de 1969.)" },
+    "adorno-educacao": { "citation": "ADORNO, Theodor W. Educação e emancipação. Tradução de Wolfgang Leo Maar. Rio de Janeiro: Paz e Terra, 1995." },
+    "horkheimer-teoria": { "citation": "HORKHEIMER, Max. Teoria tradicional e teoria crítica. In: BENJAMIN, Walter et al. Textos escolhidos. São Paulo: Abril Cultural, 1975. (Os Pensadores). (Original de 1937.)", "verify": true },
+    "horkheimer-eclipse": { "citation": "HORKHEIMER, Max. Eclipse da razão. (Original de 1947.) Há diferentes edições brasileiras; consulte a disponível na biblioteca.", "verify": true },
+    "benjamin-obra": { "citation": "BENJAMIN, Walter. A obra de arte na era de sua reprodutibilidade técnica. In: Magia e técnica, arte e política: ensaios sobre literatura e história da cultura. São Paulo: Brasiliense, 1985. (Obras escolhidas, v. 1)." },
+    "marcuse": { "citation": "MARCUSE, Herbert. O homem unidimensional: estudos da ideologia da sociedade industrial avançada. São Paulo: Edipro, 2015. (Original de 1964.)", "verify": true },
+    "marx-capital": { "citation": "MARX, Karl. O capital: crítica da economia política. Livro I. Tradução de Rubens Enderle. São Paulo: Boitempo, 2013. (Original de 1867; capítulo 1, item 4.)" },
+    "kant": { "citation": "KANT, Immanuel. Resposta à pergunta: que é “Esclarecimento”? In: Textos seletos. Petrópolis: Vozes, 1985. (Original de 1784.)", "verify": true },
+    "wiggershaus": { "citation": "WIGGERSHAUS, Rolf. A Escola de Frankfurt: história, desenvolvimento teórico, significação política. Rio de Janeiro: Difel, 2002." },
+    "jay": { "citation": "JAY, Martin. A imaginação dialética: história da Escola de Frankfurt e do Instituto de Pesquisas Sociais, 1923-1950. Rio de Janeiro: Contraponto, 2008." },
+    "nobre": { "citation": "NOBRE, Marcos. A teoria crítica. Rio de Janeiro: Jorge Zahar, 2004. (Filosofia passo-a-passo)." },
+    "freitag": { "citation": "FREITAG, Barbara. A teoria crítica: ontem e hoje. São Paulo: Brasiliense, 1986." },
+    "duarte": { "citation": "DUARTE, Rodrigo. Teoria crítica da indústria cultural. Belo Horizonte: Editora UFMG, 2003." },
+    "hall": { "citation": "HALL, Stuart. Codificação/decodificação. In: Da diáspora: identidades e mediações culturais. Belo Horizonte: Editora UFMG, 2003." },
+    "pariser": { "citation": "PARISER, Eli. O filtro invisível: o que a internet está escondendo de você. Rio de Janeiro: Zahar, 2012." },
+    "zuboff": { "citation": "ZUBOFF, Shoshana. A era do capitalismo de vigilância. Rio de Janeiro: Intrínseca, 2020." },
+    "han": { "citation": "HAN, Byung-Chul. Sociedade do cansaço. Petrópolis: Vozes, 2015." },
+    "sep-critical-theory": { "citation": "BOHMAN, James. Critical Theory. In: ZALTA, Edward N. (ed.). The Stanford Encyclopedia of Philosophy. Stanford: Stanford University.", "url": "https://plato.stanford.edu/entries/critical-theory/" },
+    "sep-adorno": { "citation": "ZUIDERVAART, Lambert. Theodor W. Adorno. In: ZALTA, Edward N. (ed.). The Stanford Encyclopedia of Philosophy. Stanford: Stanford University.", "url": "https://plato.stanford.edu/entries/adorno/" },
+    "sep-benjamin": { "citation": "OSBORNE, Peter; CHARLES, Matthew. Walter Benjamin. In: ZALTA, Edward N. (ed.). The Stanford Encyclopedia of Philosophy. Stanford: Stanford University.", "url": "https://plato.stanford.edu/entries/benjamin/" },
+    "ifs": { "citation": "INSTITUT FÜR SOZIALFORSCHUNG. Site oficial do Instituto de Pesquisa Social, Frankfurt am Main.", "url": "https://www.ifs.uni-frankfurt.de/" }
+  },
+
+  "referenceNote": "Referências marcadas com “conferir edição” devem ter editora, ano e páginas confirmados no exemplar efetivamente consultado antes da entrega.",
+
+  "imageCredits": [
+    { "file": "assets/logo.svg", "description": "Logotipo textual FRANKFLIX, desenhado em vetor para este projeto.", "license": "Criação original do projeto — licença MIT (mesma do repositório)." },
+    { "file": "assets/images/backgrounds/hero.svg", "description": "Ilustração noturna estilizada inspirada no perfil de Frankfurt am Main (catedral, casario e rio Meno). Não é uma representação fiel da cidade.", "license": "Criação original do projeto — licença MIT." },
+    { "file": "assets/images/covers/o-instituto.svg", "description": "Capa de O INSTITUTO: cidade antiga à noite, com uma janela acesa.", "license": "Criação original do projeto — licença MIT." },
+    { "file": "assets/images/covers/a-teoria-critica.svg", "description": "Capa de A TEORIA CRÍTICA — O Ataque: cena de espionagem com documentos e lupa.", "license": "Criação original do projeto — licença MIT." },
+    { "file": "assets/images/covers/dialetica-do-esclarecimento.svg", "description": "Capa de DIALÉTICA DO ESCLARECIMENTO: livro antigo entre luz e chamas.", "license": "Criação original do projeto — licença MIT." },
+    { "file": "assets/images/covers/a-formula.svg", "description": "Capa de A FÓRMULA: grade de ondas sonoras idênticas.", "license": "Criação original do projeto — licença MIT." },
+    { "file": "assets/images/covers/feito-pra-voce.svg", "description": "Capa de FEITO PRA VOCÊ: multidão de silhuetas iguais e uma mira.", "license": "Criação original do projeto — licença MIT." },
+    { "file": "assets/images/covers/so-mais-um-episodio.svg", "description": "Capa de SÓ MAIS UM EPISÓDIO: sala escura iluminada por uma tela.", "license": "Criação original do projeto — licença MIT." },
+    { "file": "assets/images/covers/a-etiqueta.svg", "description": "Capa de A ETIQUETA: etiqueta de preço dourada em um pedestal.", "license": "Criação original do projeto — licença MIT." }
+  ]
+}

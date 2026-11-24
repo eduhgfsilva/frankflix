@@ -11,7 +11,7 @@ Plataforma **fictícia** de streaming criada para a Conferência do 4º Bimestre
 | **Início** | Logotipo, slogan, apresentação e a seção “Sobre a FRANKFLIX” (Escola de Frankfurt + linha do tempo) |
 | **Originais FRANKFLIX** | *O Instituto — 1923*, *A Teoria Crítica — O Ataque*, *Dialética do Esclarecimento — 1947* |
 | **Mais Assistidos** | Top 4 da Indústria Cultural: Padronização, Pseudo-individualização, Diversão como fuga, Fetiche da mercadoria |
-| **Cancele sua assinatura** | Parecer final com as três perguntas obrigatórias (texto-base para o(a) estudante revisar) |
+| **Cancele sua assinatura** | Parecer final com as três perguntas obrigatórias |
 
 Recursos: cards com modal de detalhes (fecha com **Esc**, botão ou clique fora), botão **“O que estão escondendo de você?”**, coleções com rolagem horizontal, menu fixo que destaca a seção atual, **Modo Apresentação** e **versão para impressão em A4**.
 
@@ -75,7 +75,7 @@ Passadores de slides (clickers) costumam enviar Page Up/Page Down e funcionam. S
 
 1. Abra **Versão impressa** (`print.html`).
 2. Preencha aluno(a), turma, disciplina, professor(a), escola e data (ficam salvos só neste navegador).
-3. Opções: incluir capas coloridas, exibir o aviso de “texto-base” no parecer (desmarque **só depois** de revisá-lo) e incluir os quadros para o exemplo real.
+3. Opções: incluir capas coloridas e incluir os quadros para o exemplo real.
 4. Clique em **Imprimir trabalho**. Para PDF, escolha o destino **Salvar como PDF**, papel **A4**, margens **Padrão**.
 
 O material impresso (cerca de 24 páginas A4) traz capa, sumário, apresentação, os 7 títulos completos, o parecer, a bibliografia e as fontes das imagens. A numeração “Página X de Y” aparece no Chrome e no Edge; o Firefox ainda não aceita numeração via CSS (ative cabeçalho/rodapé na janela de impressão).
@@ -118,6 +118,6 @@ HTML semântico, link “pular para o conteúdo”, foco visível, modais com `<
 
 ## Aviso
 
-Projeto escolar sem fins comerciais. A FRANKFLIX é fictícia e não tem relação com serviços reais de streaming. Classificações, rankings e selos são satíricos. Os exemplos contemporâneos são **situações ilustrativas**; o parecer final é um **texto-base** que o(a) estudante deve revisar e assumir com suas próprias palavras.
+Projeto escolar sem fins comerciais. A FRANKFLIX é fictícia e não tem relação com serviços reais de streaming. Classificações, rankings e selos são satíricos. Os exemplos contemporâneos são **situações ilustrativas**; o parecer final foi revisado pelo(a) estudante, que é responsável pelas posições apresentadas.
 
 Licença: MIT (ver `LICENSE`).

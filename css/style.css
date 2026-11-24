@@ -307,6 +307,7 @@ p { margin: 0 0 1em; }
 }
 .site-footer__inner { display: grid; gap: 10px; }
 .site-footer p { margin: 0; max-width: 90ch; }
+.site-footer__credits { margin-top: 6px !important; padding-top: 12px; border-top: 1px solid var(--line); color: #d6d6db; font-weight: 600; }
 
 /* ---------- Movimento reduzido ---------- */
 

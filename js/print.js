@@ -5,7 +5,7 @@
 import { h, paragraphs, safeUrl } from './dom.js';
 import {
   loadCatalog, buildDetail, buildTimeline, buildVerdictQuestions,
-  referenceList, CatalogError
+  referenceList, creditsLine, CatalogError
 } from './catalog.js';
 
 const STORAGE_KEY = 'frankflix-student';
@@ -67,7 +67,7 @@ function buildDocument(catalog) {
     ),
     h('section', { class: 'doc-section doc-verdict', id: 'p-parecer' },
       h('h2', null, `4. Parecer final: ${verdict.title}`),
-      h('aside', { class: 'notice', 'data-notice': true }, h('p', null, verdict.notice)),
+      verdict.notice ? h('aside', { class: 'notice' }, h('p', null, verdict.notice)) : null,
       h('p', { class: 'doc-note' }, verdict.scoreLabel),
       h('p', { class: 'doc-lead' }, verdict.intro),
       buildVerdictQuestions(verdict, 3),
@@ -127,7 +127,8 @@ function bibliography(catalog) {
     h('ul', { class: 'credits' }, (catalog.imageCredits || []).map((c) =>
       h('li', null, h('code', null, c.file), ' — ', c.description, ' ', h('em', null, c.license),
         c.url && safeUrl(c.url) ? [' ', safeUrl(c.url)] : null)
-    ))
+    )),
+    h('p', { class: 'doc-credits' }, ...creditsLine(catalog.meta))
   );
 }
 
@@ -150,13 +151,12 @@ function initForm(student) {
       });
     });
     body.classList.toggle('no-covers', !form.elements.covers.checked);
-    body.classList.toggle('no-notice', !form.elements.notice.checked);
     body.classList.toggle('no-examples', !form.elements.examples.checked);
-    store({ ...data, covers: form.elements.covers.checked, notice: form.elements.notice.checked, examples: form.elements.examples.checked });
+    store({ ...data, covers: form.elements.covers.checked, examples: form.elements.examples.checked });
   };
 
   FIELDS.forEach(([key]) => { form.elements[key].value = student[key] || ''; });
-  ['covers', 'notice', 'examples'].forEach((key) => {
+  ['covers', 'examples'].forEach((key) => {
     if (typeof student[key] === 'boolean') form.elements[key].checked = student[key];
   });
   form.addEventListener('input', sync);

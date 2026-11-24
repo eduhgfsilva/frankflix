@@ -2,7 +2,7 @@
  * Catálogo: carregamento do JSON e renderização dos componentes.
  * Os textos ficam todos em data/catalog.json; aqui só existe a estrutura visual.
  */
-import { h, icon, paragraphs, safeImageSrc, safeUrl, uniqueId } from './dom.js';
+import { h, append, icon, paragraphs, safeImageSrc, safeUrl, uniqueId } from './dom.js';
 
 const CATALOG_URL = new URL('../data/catalog.json', import.meta.url);
 
@@ -12,7 +12,8 @@ export class CatalogError extends Error {}
 export async function loadCatalog() {
   let response;
   try {
-    response = await fetch(CATALOG_URL);
+    // no-cache: sempre confere com o servidor, para que edições no JSON apareçam ao recarregar.
+    response = await fetch(CATALOG_URL, { cache: 'no-cache' });
   } catch (error) {
     throw new CatalogError('Não foi possível acessar data/catalog.json. Verifique se o site está sendo servido por HTTP (por exemplo, python3 -m http.server 8000).', { cause: error });
   }
@@ -315,6 +316,18 @@ function studentExampleBox(example, level) {
   );
 }
 
+/** Autoria e licença: "© 2026 Autor · Licença MIT" (com link, se houver). */
+export function creditsLine(meta) {
+  const parts = [];
+  if (meta.author) parts.push(`© ${meta.year ? `${meta.year} ` : ''}${meta.author}`);
+  if (meta.license?.name) {
+    const url = meta.license.url ? safeUrl(meta.license.url) : null;
+    if (parts.length) parts.push(' · ');
+    parts.push(url ? h('a', { href: url, target: '_blank', rel: 'noopener noreferrer' }, meta.license.name) : meta.license.name);
+  }
+  return parts;
+}
+
 export function buildTimeline(timeline) {
   if (!timeline?.length) return null;
   return h('ol', { class: 'timeline' },
@@ -344,6 +357,7 @@ export function renderHome(catalog, { onOpen }) {
     h('span', { class: 'chip chip--outline' }, meta.event)
   );
   $('[data-footer-disclaimer]').textContent = `${meta.disclaimer} ${meta.ratingNote}`;
+  $('[data-footer-credits]').replaceChildren(...creditsLine(meta));
 
   $('[data-about]').replaceChildren(
     h('article', { class: 'about__col' },
@@ -416,12 +430,14 @@ function renderVerdict(container, verdict, catalog) {
     cancel.disabled = true;
   });
 
-  container.replaceChildren(
+  // append() ignora valores vazios (ex.: sem aviso) — replaceChildren(null) escreveria "null".
+  container.replaceChildren();
+  append(container, [
     h('p', { class: 'section__kicker' }, verdict.kicker),
     h('h2', { id: 'cancele-title', class: 'verdict__title' }, verdict.title),
     stars(verdict.score),
     h('p', { class: 'verdict__score-label' }, verdict.scoreLabel),
-    h('aside', { class: 'notice', role: 'note' }, h('p', null, verdict.notice)),
+    verdict.notice ? h('aside', { class: 'notice', role: 'note' }, h('p', null, verdict.notice)) : null,
     h('p', { class: 'verdict__intro' }, verdict.intro),
     buildVerdictQuestions(verdict, 3),
     h('p', { class: 'verdict__conclusion' }, verdict.conclusion),
@@ -434,5 +450,5 @@ function renderVerdict(container, verdict, catalog) {
       h('p', { class: 'closing__note' }, verdict.closingNote),
       h('div', { class: 'closing__action' }, cancel, message)
     )
-  );
+  ]);
 }

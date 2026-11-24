@@ -262,7 +262,6 @@ p { margin: 0 0 0.7em; orphans: 3; widows: 3; }
 .callout--nuance { border-left: 1.2mm solid #2f5d9a; }
 .callout--nuance .callout__title { color: #244a7c; }
 .notice { border: 2px dashed var(--gold); font-family: var(--font-sans); font-weight: 600; font-size: 10pt; margin-bottom: 4mm; }
-.no-notice [data-notice] { display: none; }
 
 .concepts { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5mm; margin: 0; }
 .concepts__item { border: 1px solid var(--line); border-radius: 1.5mm; padding: 2mm 3mm; break-inside: avoid; }
@@ -317,6 +316,7 @@ p { margin: 0 0 0.7em; orphans: 3; widows: 3; }
 .closing__message { font-family: var(--font-display); font-weight: 900; font-stretch: condensed; text-transform: uppercase; font-size: 22pt; line-height: 1.05; margin-bottom: 3mm; }
 .closing__note { font-size: 8.5pt; color: var(--muted); margin: 0; }
 
+.doc-credits { margin-top: 10mm; padding-top: 3mm; border-top: 1px solid var(--line); font-family: var(--font-sans); font-size: 9.5pt; font-weight: 600; text-align: center; }
 .credits { font-size: 9.5pt; padding-left: 5mm; display: grid; gap: 1.5mm; }
 
 /* ---------- Somente impressão ---------- */

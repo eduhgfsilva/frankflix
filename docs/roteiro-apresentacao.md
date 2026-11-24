@@ -122,12 +122,12 @@ Para cada um, use o botão **“O que estão escondendo de você?”** como ganc
 
 **Objetivo:** apresentar a sua opinião sobre as três perguntas, com argumentos e contrapontos.
 
-> O parecer no site é um **texto-base**. Revise, discorde se quiser e escolha suas posições: a opinião apresentada é sua.
+> O parecer no site já traz o texto revisado por você. Na apresentação, explique as posições com as suas próprias palavras.
 
 **Ideias principais**
-1. **Algoritmo × TV de Adorno:** a influência ficou personalizada, contínua e portátil; mas há mais vozes publicando e o público também reinterpreta. Conclusão possível: não é “pior” em tudo, mas é mais eficiente e mais difícil de perceber.
-2. **Arte autêntica:** para Adorno, é a que provoca estranhamento e reflexão. Hoje, resistência pode estar na produção independente, na cultura local e comunitária e em obras que rompem fórmulas. Contraponto: Benjamin e as críticas de elitismo a Adorno.
-3. **Autonomia:** não há saída individual simples; Adorno aposta na educação para a emancipação. Atitudes práticas: perguntar quem lucra, desligar o automático, buscar fora do algoritmo, criar.
+1. **Algoritmo × TV de Adorno:** a influência ficou personalizada e constante; a padronização aparece como escolha “feita para você”. Contraponto: qualquer pessoa pode publicar e o público comenta, interpreta e questiona. Síntese: não é pior em tudo, mas torna a Indústria Cultural mais personalizada e presente no cotidiano.
+2. **Arte autêntica:** para Adorno, a arte verdadeira tem originalidade e liberdade criativa e provoca reflexão (Schoenberg, Kafka). Hoje, a resistência pode estar em projetos independentes, eventos culturais, teatro, saraus e produções locais. Contraponto: Benjamin via na reprodução técnica mais acesso à arte.
+3. **Autonomia:** não há solução individual imediata; Adorno considerava a educação fundamental. Na prática: pesquisar quem produziu o conteúdo e quais interesses existem, sair das recomendações, conhecer outras manifestações culturais e conversar sobre o que consumimos. Contraponto: a autonomia também depende de condições sociais e de transparência das plataformas.
 - Encerramento: “O verdadeiro ato de liberdade começa quando você questiona o que consome” (mensagem do projeto, não citação dos filósofos).
 
 **Perguntas para verificar sua compreensão**

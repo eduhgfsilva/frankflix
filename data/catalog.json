@@ -12,7 +12,13 @@
       "Cada “filme” ou “série” do catálogo é, na verdade, um conceito filosófico. Clique, explore e desconfie."
     ],
     "ratingNote": "Classificações etárias, rankings e selos são fictícios e satíricos: fazem parte da proposta da plataforma.",
-    "disclaimer": "Projeto escolar sem fins comerciais. A FRANKFLIX é uma plataforma fictícia, sem relação com qualquer serviço real de streaming."
+    "disclaimer": "Projeto escolar sem fins comerciais. A FRANKFLIX é uma plataforma fictícia, sem relação com qualquer serviço real de streaming.",
+    "author": "Eduardo HGF Silva",
+    "year": "2026",
+    "license": {
+      "name": "Licença MIT",
+      "url": "https://github.com/eduhgfsilva/frankflix/blob/main/LICENSE"
+    }
   },
 
   "student": {
@@ -423,64 +429,100 @@
     "title": "POR QUE VOCÊ DEVERIA CANCELAR A FRANKFLIX?",
     "score": 1,
     "scoreLabel": "Nota fictícia da crítica: 1 de 5 — recomendada apenas para quem quer continuar pensando.",
-    "notice": "TEXTO-BASE PARA REVISÃO. Este parecer é uma proposta inicial de estudo. O(a) estudante deve revisá-lo, reescrevê-lo com as próprias palavras e decidir quais posições defende: a opinião apresentada na conferência é de sua responsabilidade.",
     "intro": "Uma plataforma que recomenda tudo o que você quer ver merece uma crítica que diga o que você talvez não queira ouvir. A partir das ideias da Escola de Frankfurt, este parecer examina três perguntas.",
     "questions": [
       {
         "question": "O TikTok e os algoritmos de recomendação podem representar formas de influência mais intensas do que a televisão criticada por Adorno?",
-        "shortAnswer": "Em vários aspectos, sim — mas não de forma simples.",
+        "shortAnswer": "Em muitos sentidos, sim, embora existam algumas diferenças.",
         "blocks": [
-          { "label": "Argumento", "text": "O rádio, o cinema e a televisão criticados por Adorno transmitiam a mesma programação para todos. Os algoritmos de recomendação funcionam de outro modo: registram o que cada pessoa assiste, por quanto tempo, o que curte e o que pula, e usam esses dados para ajustar continuamente o que será exibido. A influência deixa de ser igual para todos e passa a ser sob medida, contínua e portátil — está no bolso, a qualquer hora." },
-          { "label": "Argumento", "text": "Padronização e pseudo-individualização ganham novas formas: muitos criadores adaptam seus conteúdos ao que o algoritmo favorece, e o usuário recebe essa padronização como se fosse uma escolha íntima, “para você”." },
-          { "label": "Contraponto", "text": "Há diferenças importantes. Nas plataformas, qualquer pessoa pode produzir e publicar, o que abriu espaço para vozes que a televisão dos anos 1940 jamais mostraria. O público também não é totalmente passivo: estudiosos como Stuart Hall destacaram que as pessoas interpretam e ressignificam o que consomem. Além disso, pesquisadores ainda debatem o tamanho real de efeitos como as chamadas “bolhas de filtro”." },
-          { "label": "Síntese", "text": "Talvez a melhor resposta seja: o algoritmo não é necessariamente “pior” em tudo, mas torna a Indústria Cultural mais eficiente, mais personalizada e mais difícil de perceber. A crítica de Adorno continua útil justamente para enxergar o que a interface faz parecer natural." }
+          {
+            "label": "Argumento 1",
+            "text": "O rádio, o cinema e a televisão criticados por Adorno ofereciam conteúdos semelhantes para grandes públicos. Já os algoritmos das redes sociais funcionam de maneira mais personalizada: observam o que cada usuário assiste, curte e compartilha para selecionar os próximos conteúdos. Dessa forma, a influência se torna mais individualizada e constante, acompanhando as pessoas durante boa parte do dia."
+          },
+          {
+            "label": "Argumento 2",
+            "text": "A padronização e a falsa sensação de escolha aparecem de novas maneiras. Muitos criadores adaptam suas publicações para alcançar mais visualizações, enquanto os algoritmos selecionam o que cada pessoa vai assistir. Assim, o conteúdo parece ter sido escolhido especialmente para o usuário, mesmo seguindo padrões definidos pela plataforma."
+          },
+          {
+            "label": "Contraponto",
+            "text": "Apesar disso, existem diferenças importantes. Nas redes sociais, qualquer pessoa pode criar e compartilhar conteúdos, algo que não era tão acessível na televisão antiga. Além disso, o público não apenas recebe informações: também comenta, interpreta e questiona o que consome. Ainda assim, os efeitos das chamadas “bolhas de filtro” continuam sendo discutidos por pesquisadores."
+          },
+          {
+            "label": "Síntese",
+            "text": "Portanto, o algoritmo não é necessariamente pior em todos os aspectos, mas torna a Indústria Cultural mais personalizada e presente no cotidiano. A crítica de Adorno continua atual porque nos ajuda a perceber como as plataformas influenciam nossas escolhas sem que isso seja sempre percebido."
+          }
         ],
         "keyPoints": [
-          "TV: a mesma programação para todos. Algoritmo: influência sob medida, contínua e no bolso.",
-          "Padronização disfarçada de escolha íntima (“para você”).",
-          "Contraponto: mais vozes podem publicar; o público também reinterpreta.",
-          "Síntese: não é “pior” em tudo, mas é mais eficiente e mais difícil de perceber."
+          "TV de Adorno: conteúdos semelhantes para grandes públicos. Algoritmo: influência personalizada e constante.",
+          "Padronização e falsa sensação de escolha: conteúdo “feito para você”, mas seguindo padrões da plataforma.",
+          "Contraponto: qualquer pessoa pode publicar; o público comenta, interpreta e questiona.",
+          "Síntese: não é pior em tudo, mas torna a Indústria Cultural mais personalizada e presente no cotidiano."
         ]
       },
       {
         "question": "Ainda existe arte autêntica capaz de escapar ou resistir à lógica da Indústria Cultural? Onde?",
-        "shortAnswer": "Escapar por completo é difícil; resistir, ainda é possível.",
+        "shortAnswer": "É difícil escapar completamente, mas ainda existem formas de resistência.",
         "blocks": [
-          { "label": "Argumento", "text": "Para Adorno, a arte autêntica não é a que agrada de imediato, mas a que tem autonomia: segue suas próprias exigências, provoca estranhamento e obriga a pensar, em vez de confirmar o que já esperamos. Ele via esse potencial em obras de vanguarda, como a música de Arnold Schoenberg e a literatura de Franz Kafka e Samuel Beckett." },
-          { "label": "Argumento", "text": "Hoje é difícil encontrar uma arte totalmente “fora” do mercado: quase tudo circula em plataformas e depende de divulgação. Mesmo assim, a resistência pode aparecer em lugares diversos — na produção independente; em manifestações culturais locais e comunitárias, como saraus, batalhas de poesia, grupos de teatro e coletivos de periferia; e em obras que, mesmo distribuídas comercialmente, rompem fórmulas e provocam reflexão." },
-          { "label": "Contraponto", "text": "Há debate dentro da própria tradição. Walter Benjamin via na reprodução técnica não só a perda da “aura” da obra única, mas também novas possibilidades políticas, como o acesso de mais pessoas à arte. Adorno, por sua vez, foi criticado por certo elitismo — por exemplo, em seus textos sobre o jazz." },
-          { "label": "Síntese", "text": "Talvez a pergunta não seja “onde está a arte pura?”, mas “que obras ainda nos fazem pensar, estranhar e imaginar outro mundo possível?”. Responder exige procurar além do que é recomendado. Sugestão para o(a) estudante: inclua aqui um exemplo de obra ou de manifestação cultural que você conheça e explique por que ela resiste à fórmula." }
+          {
+            "label": "Argumento 1",
+            "text": "Para Adorno, a arte verdadeira não deve apenas agradar ao público, mas também apresentar originalidade e liberdade criativa. Ela precisa provocar reflexões e questionar aquilo que já é considerado normal. Esse potencial pode ser encontrado em obras de artistas como Arnold Schoenberg, na música, e Franz Kafka, na literatura."
+          },
+          {
+            "label": "Argumento 2",
+            "text": "Atualmente, é complicado encontrar uma arte totalmente independente do mercado, pois grande parte das produções depende de plataformas e formas de divulgação. Mesmo assim, a resistência pode surgir em espaços diferentes, como projetos independentes, eventos culturais, grupos de teatro, saraus e produções artísticas locais que procuram fugir dos padrões comerciais."
+          },
+          {
+            "label": "Contraponto",
+            "text": "Também existem discussões sobre a própria ideia de arte autêntica. Walter Benjamin, por exemplo, defendia que a reprodução técnica poderia ampliar o acesso à arte e criar novas possibilidades. Adorno, por outro lado, demonstrava preocupação com a influência do mercado e da cultura de massa sobre as produções artísticas."
+          },
+          {
+            "label": "Síntese",
+            "text": "Talvez a questão não seja apenas encontrar uma arte fora do mercado, mas perceber quais obras ainda conseguem provocar pensamentos e questionamentos. Uma forma de resistência é buscar produções culturais diferentes das que aparecem com frequência nas recomendações."
+          }
         ],
         "keyPoints": [
-          "Arte autêntica, para Adorno: autonomia, estranhamento, reflexão.",
-          "Hoje: produção independente, cultura local e comunitária, obras que rompem fórmulas.",
-          "Contraponto: Benjamin via potencial na reprodução técnica; Adorno é acusado de elitismo.",
-          "A pergunta muda: que obras ainda nos fazem pensar?"
+          "Arte verdadeira, para Adorno: originalidade, liberdade criativa e reflexão (Schoenberg, Kafka).",
+          "Hoje: projetos independentes, eventos culturais, teatro, saraus e produções locais.",
+          "Contraponto: Benjamin via na reprodução técnica mais acesso e novas possibilidades.",
+          "Síntese: buscar obras que provoquem pensamento, além das recomendações."
         ]
       },
       {
         "question": "Como desenvolver autonomia e pensamento crítico para reduzir a manipulação cultural?",
-        "shortAnswer": "Não há saída individual simples, mas há caminhos — e a educação é um deles.",
+        "shortAnswer": "Não existe uma solução individual imediata, mas a educação pode ajudar bastante.",
         "blocks": [
-          { "label": "Argumento", "text": "Para a Escola de Frankfurt, a Indústria Cultural é um problema social e econômico, não apenas de escolhas pessoais; por isso não existe uma “saída” individual simples. Ainda assim, Adorno atribuiu à educação um papel decisivo. Nos textos reunidos em Educação e emancipação, ele defende uma educação que forme pessoas capazes de reflexão crítica e de resistir à adesão cega a grupos e autoridades, para que a barbárie de Auschwitz não se repita." },
-          { "label": "Na prática", "text": "Algumas atitudes ajudam: perguntar quem produziu um conteúdo, com que interesse e quem lucra com ele; desligar a reprodução automática e decidir quando parar; procurar conteúdos fora das recomendações, como bibliotecas, cinema nacional, teatro e músicas de outros tempos e lugares; conversar sobre o que se consome; e criar, e não apenas consumir." },
-          { "label": "Contraponto", "text": "É preciso reconhecer limites: ninguém está totalmente fora da Indústria Cultural — nem quem a critica. E a autonomia também depende de condições coletivas, como acesso à cultura e debates públicos sobre a transparência das plataformas." },
-          { "label": "Síntese", "text": "A autonomia não é um estado que se alcança de uma vez, mas um exercício permanente de questionamento, feito individualmente e em conjunto." }
+          {
+            "label": "Argumento",
+            "text": "Para a Escola de Frankfurt, a Indústria Cultural está ligada a questões sociais e econômicas, não sendo apenas uma questão de escolha pessoal. Por isso, não é simples escapar totalmente de sua influência. Mesmo assim, Adorno considerava a educação fundamental para desenvolver pessoas mais críticas e conscientes, capazes de questionar informações e evitar seguir ideias sem reflexão."
+          },
+          {
+            "label": "Na prática",
+            "text": "Algumas ações podem contribuir para isso: pesquisar quem produziu determinado conteúdo, entender quais interesses estão envolvidos, evitar consumir apenas o que os algoritmos recomendam e procurar fontes diferentes de informação. Também é importante conhecer outras manifestações culturais, como livros, filmes, peças teatrais e debates, além de conversar sobre aquilo que consumimos."
+          },
+          {
+            "label": "Contraponto",
+            "text": "É importante reconhecer que nem sempre a responsabilidade está apenas no indivíduo. A autonomia também depende de oportunidades e condições sociais, como o acesso à educação, à cultura e à informação. Além disso, as plataformas precisam ter mais transparência sobre o funcionamento de seus algoritmos."
+          },
+          {
+            "label": "Síntese",
+            "text": "Desenvolver autonomia exige prática e reflexão constantes. Mais do que deixar de consumir conteúdos, é necessário aprender a questioná-los, fazer escolhas conscientes e construir opiniões próprias, tanto individualmente quanto em sociedade."
+          }
         ],
         "keyPoints": [
-          "Não há saída individual simples: o problema é social e econômico.",
-          "Adorno: educação para a emancipação e a reflexão crítica.",
-          "Na prática: perguntar quem lucra, desligar o automático, buscar fora do algoritmo, criar.",
-          "Autonomia é exercício permanente — e também coletivo."
+          "Não há solução individual imediata: o problema é social e econômico.",
+          "Adorno: a educação forma pessoas críticas e conscientes.",
+          "Na prática: pesquisar quem produz e quais interesses existem, sair das recomendações, conversar.",
+          "Autonomia exige prática constante — individual e em sociedade."
         ]
       }
     ],
+
     "conclusion": "Cancelar a FRANKFLIX não significa abandonar a cultura, a tecnologia ou o entretenimento. Significa recusar o papel de espectador que apenas aceita o que é oferecido. A Escola de Frankfurt não nos entrega um manual de libertação, mas uma pergunta que vale para cada clique: quem está escolhendo por mim, e por quê?",
     "closingMessage": "O verdadeiro ato de liberdade começa quando você questiona o que consome.",
     "closingNote": "Mensagem editorial do projeto FRANKFLIX — não é uma citação dos filósofos da Escola de Frankfurt.",
     "cancelButton": "Cancelar assinatura",
     "cancelMessage": "Assinatura cancelada. A partir de agora, a escolha é sua.",
-    "references": ["adorno-educacao", "benjamin-obra", "hall", "pariser", "zuboff", "marcuse", "sep-benjamin"]
+    "references": ["adorno-educacao", "benjamin-obra", "pariser", "zuboff", "marcuse", "sep-benjamin"]
   },
 
   "references": {

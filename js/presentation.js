@@ -173,8 +173,7 @@ function buildSlides(catalog) {
       h('p', { class: 'slide__kicker' }, `Cancele sua assinatura · Pergunta ${i + 1} de ${verdict.questions.length}`),
       h('h2', { class: 'slide__title slide__title--question' }, q.question),
       h('p', { class: 'slide__short' }, q.shortAnswer),
-      points(q.keyPoints),
-      h('p', { class: 'slide__note' }, 'Texto-base para revisão: apresente a sua própria opinião.')
+      points(q.keyPoints)
     )
   }));
 

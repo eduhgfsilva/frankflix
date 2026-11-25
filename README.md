@@ -38,9 +38,9 @@ Todo o texto fica em **`data/catalog.json`**. Os arquivos JavaScript só montam 
 - `student` — valores iniciais de aluno(a), turma, disciplina, professor(a), escola e data (também editáveis na página de impressão).
 - `about` — apresentação da plataforma, da Escola de Frankfurt e linha do tempo.
 - `originals` — os três Originais (sinopse, explicação, contexto histórico, conceitos, autores, resumo, referências…).
-- `mostWatched` — os quatro Mais Assistidos (conceito, exemplo, relação, crítica revelada, pergunta, selo…). Em `studentExample.text` o(a) estudante pode escrever o **exemplo real** escolhido; se ficar vazio, a versão impressa mostra um quadro em branco para colar um print.
+- `mostWatched` — os quatro Mais Assistidos (conceito, exemplo, relação, crítica revelada, pergunta, selo…). Em `studentExample` fica o **exemplo real** escolhido pelo(a) estudante (`title`, `image` com `src`/`alt`/`credit`/`logo` — ou `images`, uma lista delas —, `points` e `text`); se ficar vazio, a versão impressa mostra um quadro em branco para colar um print.
 - `verdict` — o parecer final.
-- `references` — bibliografia; cada produção cita os *ids* daqui. Marque `"verify": true` em referências cuja edição precisa ser conferida.
+- `references` — bibliografia; cada produção cita os *ids* daqui.
 - `imageCredits` — origem e licença das imagens.
 
 Dicas: mantenha as aspas duplas `"` do JSON e as vírgulas entre os itens; para aspas dentro do texto use “ ”. Se o JSON tiver erro, o site exibe uma mensagem explicando o problema. Um validador rápido: `python3 -m json.tool data/catalog.json`.

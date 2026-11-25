@@ -142,6 +142,5 @@ Para cada um, use o botão **“O que estão escondendo de você?”** como ganc
 ### Checklist antes da conferência
 - [ ] Revisei e personalizei o parecer final.
 - [ ] Escolhi e anotei pelo menos um exemplo real (com fonte).
-- [ ] Conferi as referências marcadas com “conferir edição”.
 - [ ] Testei o Modo Apresentação no computador e no projetor da sala.
 - [ ] Imprimi o trabalho (ou salvei o PDF) com meus dados na capa.

@@ -286,7 +286,6 @@ p { margin: 0 0 0.7em; orphans: 3; widows: 3; }
 
 .refs { margin: 0; padding-left: 5mm; display: grid; gap: 1.5mm; font-size: 9.5pt; }
 .refs a { overflow-wrap: anywhere; color: inherit; }
-.refs__verify { color: var(--gold); font-family: var(--font-sans); font-size: 8pt; font-weight: 700; }
 .refs--biblio { list-style: none; padding-left: 0; gap: 2.5mm; font-size: 10.5pt; }
 
 .timeline { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5mm 6mm; }
@@ -296,6 +295,18 @@ p { margin: 0 0 0.7em; orphans: 3; widows: 3; }
 .student-example { break-inside: avoid; }
 .student-example__prompt { font-size: 9.5pt; color: var(--muted); font-style: italic; }
 .student-example__space { height: 35mm; border: 1.5px dashed #999; border-radius: 1.5mm; }
+.student-example__body { display: grid; grid-template-columns: 70mm 1fr; gap: 5mm; align-items: start; }
+.student-example__body--logo { grid-template-columns: 28mm 1fr; }
+.student-example__body--gallery { grid-template-columns: 1fr; }
+.student-example__gallery { display: flex; gap: 3mm; align-items: flex-start; }
+.student-example__gallery .student-example__figure { flex: 0 1 auto; min-width: 0; }
+.student-example__gallery .student-example__figure img { width: auto; height: 55mm; max-width: 100%; object-fit: cover; }
+.student-example__figure { margin: 0; }
+.student-example__figure img { display: block; width: 100%; height: auto; border-radius: 1mm; }
+.student-example__figure figcaption { margin-top: 1mm; font-size: 8pt; color: var(--muted); }
+.student-example__title { margin: 0 0 1.5mm; font-family: var(--font-sans); font-weight: 700; }
+.student-example__text ul { margin: 0; padding-left: 4.5mm; }
+.student-example__text p:last-child { margin-bottom: 0; }
 .no-examples .student-example { display: none; }
 
 /* Parecer */

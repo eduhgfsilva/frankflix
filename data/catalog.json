@@ -266,6 +266,17 @@
       ],
       "studentExample": {
         "prompt": "Exemplo real escolhido pelo(a) estudante: cole aqui um print ou descreva um caso concreto (música, vídeo, série), indicando a fonte.",
+        "title": "O Rei Leão — animação (1994) e nova versão (2019)",
+        "image": {
+          "src": "assets/images/examples/a-formula-rei-leao.jpg",
+          "alt": "Comparação lado a lado: à esquerda, o filhote de leão Simba na animação desenhada à mão; à direita, a mesma cena refeita com animação fotorrealista.",
+          "credit": "Foto tirada de: br.ign.com"
+        },
+        "points": [
+          "Padronização: a história já conhecida é repetida.",
+          "Novidade aparente: muda principalmente a tecnologia visual.",
+          "Consumo previsível: o público já conhece e gosta da história."
+        ],
         "text": ""
       },
       "keyPoints": [
@@ -314,7 +325,13 @@
       ],
       "studentExample": {
         "prompt": "Exemplo real escolhido pelo(a) estudante: cole aqui um print de uma recomendação “para você” ou de um produto “personalizável”, indicando a fonte.",
-        "text": ""
+        "title": "Spotify – Descobertas da Semana",
+        "image": {
+          "src": "assets/images/examples/spotify.png",
+          "alt": "Logotipo do Spotify: círculo verde com três ondas curvas brancas.",
+          "logo": true
+        },
+        "text": "O Spotify cria playlists personalizadas com base nos gostos de cada usuário, dando a sensação de exclusividade. Porém, essa personalização é feita por algoritmos que seguem padrões. Isso representa a pseudo-individualização de Adorno: a impressão de ter algo único, mesmo dentro de um sistema padronizado."
       },
       "keyPoints": [
         "Pseudo-individualização: o padrão disfarçado de escolha pessoal.",
@@ -363,7 +380,13 @@
       ],
       "studentExample": {
         "prompt": "Exemplo real escolhido pelo(a) estudante: descreva um recurso de reprodução automática ou de rolagem infinita que você usa, ou anote quanto tempo passou em um aplicativo em um dia comum.",
-        "text": ""
+        "title": "Netflix – Reprodução automática",
+        "image": {
+          "src": "assets/images/examples/netflix.png",
+          "alt": "Logotipo da Netflix: letra N vermelha sobre fundo preto.",
+          "logo": true
+        },
+        "text": "A Netflix inicia automaticamente o próximo episódio de uma série, incentivando a pessoa a continuar assistindo. Assim, o entretenimento pode se tornar uma fuga dos problemas e das obrigações do cotidiano. Isso representa a ideia de Adorno e Horkheimer de que a diversão pode distrair as pessoas da realidade, sem fazê-las refletir sobre ela."
       },
       "keyPoints": [
         "Diversão como prolongamento do trabalho (Dialética do Esclarecimento).",
@@ -412,7 +435,18 @@
       ],
       "studentExample": {
         "prompt": "Exemplo real escolhido pelo(a) estudante: cole aqui a imagem de uma campanha publicitária ou de um lançamento “exclusivo”, indicando a fonte.",
-        "text": ""
+        "title": "iPhone – Status e prestígio",
+        "images": [
+          {
+            "src": "assets/images/examples/a-etiqueta-iphone.jpg",
+            "alt": "Detalhe da traseira de um iPhone laranja, com as câmeras e o logotipo da Apple em destaque sobre fundo preto."
+          },
+          {
+            "src": "assets/images/examples/a-etiqueta-fila.jpg",
+            "alt": "Longa fila de pessoas diante da loja da Apple em forma de cubo de vidro, em Nova York, aguardando um lançamento."
+          }
+        ],
+        "text": "Muitas pessoas compram um iPhone não apenas por suas funções, mas também pelo status que a marca representa. Assim, o celular passa a simbolizar riqueza e prestígio, enquanto o trabalho e as relações sociais envolvidos em sua produção ficam em segundo plano. Isso representa o fetichismo da mercadoria de Marx."
       },
       "keyPoints": [
         "Origem em Marx (O capital, 1867): o trabalho some, o objeto parece ter valor próprio.",
@@ -527,17 +561,17 @@
 
   "references": {
     "dialetica": { "citation": "ADORNO, Theodor W.; HORKHEIMER, Max. Dialética do esclarecimento: fragmentos filosóficos. Tradução de Guido Antonio de Almeida. Rio de Janeiro: Zahar, 1985. (Original de 1947.)" },
-    "adorno-popular-music": { "citation": "ADORNO, Theodor W.; SIMPSON, George. On popular music. Studies in Philosophy and Social Science, Nova York, v. 9, p. 17-48, 1941. Tradução brasileira: “Sobre música popular”. In: COHN, Gabriel (org.). Theodor W. Adorno: sociologia. São Paulo: Ática, 1986.", "verify": true },
-    "adorno-fetichismo": { "citation": "ADORNO, Theodor W. O fetichismo na música e a regressão da audição. In: BENJAMIN, Walter et al. Textos escolhidos. São Paulo: Abril Cultural, 1975. (Os Pensadores). (Original de 1938.)", "verify": true },
-    "adorno-industria": { "citation": "ADORNO, Theodor W. A indústria cultural. In: COHN, Gabriel (org.). Theodor W. Adorno: sociologia. São Paulo: Ática, 1986. (Palestra de 1963.)", "verify": true },
+    "adorno-popular-music": { "citation": "ADORNO, Theodor W.; SIMPSON, George. On popular music. Studies in Philosophy and Social Science, Nova York: Institute of Social Research, v. 9, p. 17-48, 1941. Tradução brasileira: “Sobre música popular”. In: COHN, Gabriel (org.). Theodor W. Adorno: sociologia. São Paulo: Ática, 1986." },
+    "adorno-fetichismo": { "citation": "ADORNO, Theodor W. O fetichismo na música e a regressão da audição. In: ADORNO, Theodor W. Textos escolhidos. São Paulo: Nova Cultural, 1996. (Os Pensadores). p. 65-108. (Original de 1938.)" },
+    "adorno-industria": { "citation": "ADORNO, Theodor W. Indústria cultural. São Paulo: Editora Unesp, 2020. 286 p." },
     "adorno-tempo-livre": { "citation": "ADORNO, Theodor W. Tempo livre. In: Palavras e sinais: modelos críticos 2. Petrópolis: Vozes, 1995. (Original de 1969.)" },
     "adorno-educacao": { "citation": "ADORNO, Theodor W. Educação e emancipação. Tradução de Wolfgang Leo Maar. Rio de Janeiro: Paz e Terra, 1995." },
-    "horkheimer-teoria": { "citation": "HORKHEIMER, Max. Teoria tradicional e teoria crítica. In: BENJAMIN, Walter et al. Textos escolhidos. São Paulo: Abril Cultural, 1975. (Os Pensadores). (Original de 1937.)", "verify": true },
-    "horkheimer-eclipse": { "citation": "HORKHEIMER, Max. Eclipse da razão. (Original de 1947.) Há diferentes edições brasileiras; consulte a disponível na biblioteca.", "verify": true },
+    "horkheimer-teoria": { "citation": "HORKHEIMER, Max. Teoria tradicional e teoria crítica. In: BENJAMIN, Walter et al. Textos escolhidos. São Paulo: Abril Cultural, 1975. (Os Pensadores, v. 48). p. 125-162. (Original de 1937.)" },
+    "horkheimer-eclipse": { "citation": "HORKHEIMER, Max. Eclipse da razão. 1. ed. São Paulo: Editora Unesp, 2016. 208 p. (Original de 1947.)" },
     "benjamin-obra": { "citation": "BENJAMIN, Walter. A obra de arte na era de sua reprodutibilidade técnica. In: Magia e técnica, arte e política: ensaios sobre literatura e história da cultura. São Paulo: Brasiliense, 1985. (Obras escolhidas, v. 1)." },
-    "marcuse": { "citation": "MARCUSE, Herbert. O homem unidimensional: estudos da ideologia da sociedade industrial avançada. São Paulo: Edipro, 2015. (Original de 1964.)", "verify": true },
+    "marcuse": { "citation": "MARCUSE, Herbert. O homem unidimensional: estudos da ideologia da sociedade industrial avançada. São Paulo: Edipro, 2015. (Original de 1964.)" },
     "marx-capital": { "citation": "MARX, Karl. O capital: crítica da economia política. Livro I. Tradução de Rubens Enderle. São Paulo: Boitempo, 2013. (Original de 1867; capítulo 1, item 4.)" },
-    "kant": { "citation": "KANT, Immanuel. Resposta à pergunta: que é “Esclarecimento”? In: Textos seletos. Petrópolis: Vozes, 1985. (Original de 1784.)", "verify": true },
+    "kant": { "citation": "KANT, Immanuel. Resposta à pergunta: o que é esclarecimento? São Paulo: Penguin-Companhia, 2022. (Original de 1784.)" },
     "wiggershaus": { "citation": "WIGGERSHAUS, Rolf. A Escola de Frankfurt: história, desenvolvimento teórico, significação política. Rio de Janeiro: Difel, 2002." },
     "jay": { "citation": "JAY, Martin. A imaginação dialética: história da Escola de Frankfurt e do Instituto de Pesquisas Sociais, 1923-1950. Rio de Janeiro: Contraponto, 2008." },
     "nobre": { "citation": "NOBRE, Marcos. A teoria crítica. Rio de Janeiro: Jorge Zahar, 2004. (Filosofia passo-a-passo)." },
@@ -553,8 +587,6 @@
     "ifs": { "citation": "INSTITUT FÜR SOZIALFORSCHUNG. Site oficial do Instituto de Pesquisa Social, Frankfurt am Main.", "url": "https://www.ifs.uni-frankfurt.de/" }
   },
 
-  "referenceNote": "Referências marcadas com “conferir edição” devem ter editora, ano e páginas confirmados no exemplar efetivamente consultado antes da entrega.",
-
   "imageCredits": [
     { "file": "assets/logo.svg", "description": "Logotipo textual FRANKFLIX, desenhado em vetor para este projeto.", "license": "Criação original do projeto — licença MIT (mesma do repositório)." },
     { "file": "assets/images/backgrounds/hero.svg", "description": "Ilustração noturna estilizada inspirada no perfil de Frankfurt am Main (catedral, casario e rio Meno). Não é uma representação fiel da cidade.", "license": "Criação original do projeto — licença MIT." },
@@ -564,6 +596,11 @@
     { "file": "assets/images/covers/a-formula.svg", "description": "Capa de A FÓRMULA: grade de ondas sonoras idênticas.", "license": "Criação original do projeto — licença MIT." },
     { "file": "assets/images/covers/feito-pra-voce.svg", "description": "Capa de FEITO PRA VOCÊ: multidão de silhuetas iguais e uma mira.", "license": "Criação original do projeto — licença MIT." },
     { "file": "assets/images/covers/so-mais-um-episodio.svg", "description": "Capa de SÓ MAIS UM EPISÓDIO: sala escura iluminada por uma tela.", "license": "Criação original do projeto — licença MIT." },
-    { "file": "assets/images/covers/a-etiqueta.svg", "description": "Capa de A ETIQUETA: etiqueta de preço dourada em um pedestal.", "license": "Criação original do projeto — licença MIT." }
+    { "file": "assets/images/covers/a-etiqueta.svg", "description": "Capa de A ETIQUETA: etiqueta de preço dourada em um pedestal.", "license": "Criação original do projeto — licença MIT." },
+    { "file": "assets/images/examples/a-formula-rei-leao.jpg", "description": "Comparação entre O Rei Leão (1994) e a nova versão (2019), usada no exemplo real de A FÓRMULA (versão impressa).", "license": "Imagem de terceiros, reproduzida para fins educacionais. Fonte: br.ign.com. Não coberta pela licença MIT." },
+    { "file": "assets/images/examples/spotify.png", "description": "Logotipo do Spotify, usado no exemplo real de FEITO PRA VOCÊ (versão impressa).", "license": "Marca registrada de seu titular, citada para fins educacionais e de análise. Não coberta pela licença MIT." },
+    { "file": "assets/images/examples/a-etiqueta-iphone.jpg", "description": "Traseira de um iPhone com o logotipo da Apple, usada no exemplo real de A ETIQUETA (versão impressa).", "license": "Imagem de terceiros e marca registrada de seu titular, reproduzidas para fins educacionais e de análise. Não coberta pela licença MIT." },
+    { "file": "assets/images/examples/a-etiqueta-fila.jpg", "description": "Fila diante de uma loja da Apple em Nova York, usada no exemplo real de A ETIQUETA (versão impressa).", "license": "Imagem de terceiros, reproduzida para fins educacionais. Não coberta pela licença MIT." },
+    { "file": "assets/images/examples/netflix.png", "description": "Logotipo da Netflix, usado no exemplo real de SÓ MAIS UM EPISÓDIO (versão impressa).", "license": "Marca registrada de seu titular, citada para fins educacionais e de análise. Não coberta pela licença MIT." }
   ]
 }

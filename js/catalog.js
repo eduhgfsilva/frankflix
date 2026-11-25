@@ -223,8 +223,7 @@ export function referenceList(ids, catalog, className = 'refs') {
     const url = ref.url ? safeUrl(ref.url) : null;
     return h('li', null,
       ref.citation,
-      url ? [' Disponível em: ', h('a', { href: url, target: '_blank', rel: 'noopener noreferrer' }, url), '.'] : null,
-      ref.verify ? h('span', { class: 'refs__verify' }, ' [conferir edição]') : null
+      url ? [' Disponível em: ', h('a', { href: url, target: '_blank', rel: 'noopener noreferrer' }, url), '.'] : null
     );
   }));
 }
@@ -308,11 +307,31 @@ export function buildDetail(item, catalog, { level = 2, mode = 'modal', titleId 
 }
 
 function studentExampleBox(example, level) {
-  const filled = example.text && example.text.trim();
+  const text = example.text?.trim();
+  const points = example.points?.length ? example.points : null;
+  const images = (example.images || [example.image]).filter((img) => img?.src);
+  const filled = Boolean(text || points || images.length);
+  const variant = images.length > 1 ? ' student-example__body--gallery' : images[0]?.logo ? ' student-example__body--logo' : '';
+  const figure = (image) => h('figure', { class: 'student-example__figure' },
+    h('img', { src: image.src, alt: image.alt || '', loading: 'eager' }),
+    image.credit ? h('figcaption', null, image.credit) : null
+  );
+  const content = filled
+    ? h('div', { class: `student-example__body${variant}` },
+        images.length > 1
+          ? h('div', { class: 'student-example__gallery' }, images.map(figure))
+          : images.length ? figure(images[0]) : null,
+        h('div', { class: 'student-example__text' },
+          example.title ? h('p', { class: 'student-example__title' }, example.title) : null,
+          points ? h('ul', null, points.map((point) => h('li', null, point))) : null,
+          text ? h('p', null, text) : null
+        )
+      )
+    : h('div', { class: 'student-example__space', 'aria-hidden': 'true' });
   return h('section', { class: `detail__section student-example${filled ? ' is-filled' : ''}` },
     h(`h${Math.min(level, 6)}`, { class: 'detail__heading' }, 'Exemplo real'),
     h('p', { class: 'student-example__prompt' }, filled ? 'Exemplo escolhido pelo(a) estudante:' : example.prompt),
-    filled ? h('p', null, example.text) : h('div', { class: 'student-example__space', 'aria-hidden': 'true' })
+    content
   );
 }
 

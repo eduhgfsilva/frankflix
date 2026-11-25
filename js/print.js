@@ -122,7 +122,6 @@ function bibliography(catalog) {
   return h('section', { class: 'doc-section doc-biblio', id: 'p-referencias' },
     h('h2', null, '5. Referências bibliográficas'),
     referenceList(ids, catalog, 'refs refs--biblio'),
-    catalog.referenceNote ? h('p', { class: 'doc-note' }, catalog.referenceNote) : null,
     h('h3', null, 'Fontes das imagens'),
     h('ul', { class: 'credits' }, (catalog.imageCredits || []).map((c) =>
       h('li', null, h('code', null, c.file), ' — ', c.description, ' ', h('em', null, c.license),
